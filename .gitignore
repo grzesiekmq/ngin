@@ -1,0 +1,8 @@
+obj
+bin
+Content
+.vs
+Properties
+Program.cs
+GameTest.cs
+*.csproj
