@@ -13,12 +13,12 @@ references:
   commentId: T:rgn.Car
   fullName: rgn.Car
   nameWithType: Car
-- uid: rgn.Car.Accelerate
-  name: Accelerate()
-  href: api/rgn.Car.html#rgn_Car_Accelerate
-  commentId: M:rgn.Car.Accelerate
-  fullName: rgn.Car.Accelerate()
-  nameWithType: Car.Accelerate()
+- uid: rgn.Car.Accelerate(System.Int32)
+  name: Accelerate(Int32)
+  href: api/rgn.Car.html#rgn_Car_Accelerate_System_Int32_
+  commentId: M:rgn.Car.Accelerate(System.Int32)
+  fullName: rgn.Car.Accelerate(System.Int32)
+  nameWithType: Car.Accelerate(Int32)
 - uid: rgn.Car.Accelerate*
   name: Accelerate
   href: api/rgn.Car.html#rgn_Car_Accelerate_
@@ -52,12 +52,12 @@ references:
   isSpec: "True"
   fullName: rgn.Car.AckermannRight
   nameWithType: Car.AckermannRight
-- uid: rgn.Car.Brake
-  name: Brake()
-  href: api/rgn.Car.html#rgn_Car_Brake
-  commentId: M:rgn.Car.Brake
-  fullName: rgn.Car.Brake()
-  nameWithType: Car.Brake()
+- uid: rgn.Car.Brake(System.Int32)
+  name: Brake(Int32)
+  href: api/rgn.Car.html#rgn_Car_Brake_System_Int32_
+  commentId: M:rgn.Car.Brake(System.Int32)
+  fullName: rgn.Car.Brake(System.Int32)
+  nameWithType: Car.Brake(Int32)
 - uid: rgn.Car.Brake*
   name: Brake
   href: api/rgn.Car.html#rgn_Car_Brake_
@@ -65,32 +65,19 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Brake
   nameWithType: Car.Brake
-- uid: rgn.Car.GetDistance
-  name: GetDistance()
-  href: api/rgn.Car.html#rgn_Car_GetDistance
-  commentId: M:rgn.Car.GetDistance
-  fullName: rgn.Car.GetDistance()
-  nameWithType: Car.GetDistance()
-- uid: rgn.Car.GetDistance*
-  name: GetDistance
-  href: api/rgn.Car.html#rgn_Car_GetDistance_
-  commentId: Overload:rgn.Car.GetDistance
+- uid: rgn.Car.Distance
+  name: Distance
+  href: api/rgn.Car.html#rgn_Car_Distance
+  commentId: P:rgn.Car.Distance
+  fullName: rgn.Car.Distance
+  nameWithType: Car.Distance
+- uid: rgn.Car.Distance*
+  name: Distance
+  href: api/rgn.Car.html#rgn_Car_Distance_
+  commentId: Overload:rgn.Car.Distance
   isSpec: "True"
-  fullName: rgn.Car.GetDistance
-  nameWithType: Car.GetDistance
-- uid: rgn.Car.GetSpeed
-  name: GetSpeed()
-  href: api/rgn.Car.html#rgn_Car_GetSpeed
-  commentId: M:rgn.Car.GetSpeed
-  fullName: rgn.Car.GetSpeed()
-  nameWithType: Car.GetSpeed()
-- uid: rgn.Car.GetSpeed*
-  name: GetSpeed
-  href: api/rgn.Car.html#rgn_Car_GetSpeed_
-  commentId: Overload:rgn.Car.GetSpeed
-  isSpec: "True"
-  fullName: rgn.Car.GetSpeed
-  nameWithType: Car.GetSpeed
+  fullName: rgn.Car.Distance
+  nameWithType: Car.Distance
 - uid: rgn.Car.KmhToMph(System.Int32)
   name: KmhToMph(Int32)
   href: api/rgn.Car.html#rgn_Car_KmhToMph_System_Int32_
@@ -117,12 +104,12 @@ references:
   isSpec: "True"
   fullName: rgn.Car.MphToKmh
   nameWithType: Car.MphToKmh
-- uid: rgn.Car.MpsToKmh(System.Int32)
-  name: MpsToKmh(Int32)
-  href: api/rgn.Car.html#rgn_Car_MpsToKmh_System_Int32_
-  commentId: M:rgn.Car.MpsToKmh(System.Int32)
-  fullName: rgn.Car.MpsToKmh(System.Int32)
-  nameWithType: Car.MpsToKmh(Int32)
+- uid: rgn.Car.MpsToKmh(System.Single)
+  name: MpsToKmh(Single)
+  href: api/rgn.Car.html#rgn_Car_MpsToKmh_System_Single_
+  commentId: M:rgn.Car.MpsToKmh(System.Single)
+  fullName: rgn.Car.MpsToKmh(System.Single)
+  nameWithType: Car.MpsToKmh(Single)
 - uid: rgn.Car.MpsToKmh*
   name: MpsToKmh
   href: api/rgn.Car.html#rgn_Car_MpsToKmh_
@@ -130,32 +117,58 @@ references:
   isSpec: "True"
   fullName: rgn.Car.MpsToKmh
   nameWithType: Car.MpsToKmh
-- uid: rgn.Car.SetDistance
-  name: SetDistance()
-  href: api/rgn.Car.html#rgn_Car_SetDistance
-  commentId: M:rgn.Car.SetDistance
-  fullName: rgn.Car.SetDistance()
-  nameWithType: Car.SetDistance()
-- uid: rgn.Car.SetDistance*
-  name: SetDistance
-  href: api/rgn.Car.html#rgn_Car_SetDistance_
-  commentId: Overload:rgn.Car.SetDistance
+- uid: rgn.Car.MToKm(System.Single)
+  name: MToKm(Single)
+  href: api/rgn.Car.html#rgn_Car_MToKm_System_Single_
+  commentId: M:rgn.Car.MToKm(System.Single)
+  fullName: rgn.Car.MToKm(System.Single)
+  nameWithType: Car.MToKm(Single)
+- uid: rgn.Car.MToKm*
+  name: MToKm
+  href: api/rgn.Car.html#rgn_Car_MToKm_
+  commentId: Overload:rgn.Car.MToKm
   isSpec: "True"
-  fullName: rgn.Car.SetDistance
-  nameWithType: Car.SetDistance
-- uid: rgn.Car.SetSpeed
-  name: SetSpeed()
-  href: api/rgn.Car.html#rgn_Car_SetSpeed
-  commentId: M:rgn.Car.SetSpeed
-  fullName: rgn.Car.SetSpeed()
-  nameWithType: Car.SetSpeed()
-- uid: rgn.Car.SetSpeed*
-  name: SetSpeed
-  href: api/rgn.Car.html#rgn_Car_SetSpeed_
-  commentId: Overload:rgn.Car.SetSpeed
+  fullName: rgn.Car.MToKm
+  nameWithType: Car.MToKm
+- uid: rgn.Car.Speed
+  name: Speed
+  href: api/rgn.Car.html#rgn_Car_Speed
+  commentId: P:rgn.Car.Speed
+  fullName: rgn.Car.Speed
+  nameWithType: Car.Speed
+- uid: rgn.Car.Speed*
+  name: Speed
+  href: api/rgn.Car.html#rgn_Car_Speed_
+  commentId: Overload:rgn.Car.Speed
   isSpec: "True"
-  fullName: rgn.Car.SetSpeed
-  nameWithType: Car.SetSpeed
+  fullName: rgn.Car.Speed
+  nameWithType: Car.Speed
+- uid: rgn.Car.SteerLeft(System.Int32)
+  name: SteerLeft(Int32)
+  href: api/rgn.Car.html#rgn_Car_SteerLeft_System_Int32_
+  commentId: M:rgn.Car.SteerLeft(System.Int32)
+  fullName: rgn.Car.SteerLeft(System.Int32)
+  nameWithType: Car.SteerLeft(Int32)
+- uid: rgn.Car.SteerLeft*
+  name: SteerLeft
+  href: api/rgn.Car.html#rgn_Car_SteerLeft_
+  commentId: Overload:rgn.Car.SteerLeft
+  isSpec: "True"
+  fullName: rgn.Car.SteerLeft
+  nameWithType: Car.SteerLeft
+- uid: rgn.Car.SteerRight(System.Int32)
+  name: SteerRight(Int32)
+  href: api/rgn.Car.html#rgn_Car_SteerRight_System_Int32_
+  commentId: M:rgn.Car.SteerRight(System.Int32)
+  fullName: rgn.Car.SteerRight(System.Int32)
+  nameWithType: Car.SteerRight(Int32)
+- uid: rgn.Car.SteerRight*
+  name: SteerRight
+  href: api/rgn.Car.html#rgn_Car_SteerRight_
+  commentId: Overload:rgn.Car.SteerRight
+  isSpec: "True"
+  fullName: rgn.Car.SteerRight
+  nameWithType: Car.SteerRight
 - uid: rgn.File
   name: File
   href: api/rgn.File.html
@@ -248,12 +261,12 @@ references:
   commentId: T:rgn.Physics.Rigid
   fullName: rgn.Physics.Rigid
   nameWithType: Rigid
-- uid: rgn.Physics.Rigid.#ctor
-  name: Rigid()
-  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor
-  commentId: M:rgn.Physics.Rigid.#ctor
-  fullName: rgn.Physics.Rigid.Rigid()
-  nameWithType: Rigid.Rigid()
+- uid: rgn.Physics.Rigid.#ctor(System.Int32,System.Single,System.Single)
+  name: Rigid(Int32, Single, Single)
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor_System_Int32_System_Single_System_Single_
+  commentId: M:rgn.Physics.Rigid.#ctor(System.Int32,System.Single,System.Single)
+  fullName: rgn.Physics.Rigid.Rigid(System.Int32, System.Single, System.Single)
+  nameWithType: Rigid.Rigid(Int32, Single, Single)
 - uid: rgn.Physics.Rigid.#ctor*
   name: Rigid
   href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor_
@@ -261,6 +274,45 @@ references:
   isSpec: "True"
   fullName: rgn.Physics.Rigid.Rigid
   nameWithType: Rigid.Rigid
+- uid: rgn.Physics.Rigid.AddForce(System.Int32)
+  name: AddForce(Int32)
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_AddForce_System_Int32_
+  commentId: M:rgn.Physics.Rigid.AddForce(System.Int32)
+  fullName: rgn.Physics.Rigid.AddForce(System.Int32)
+  nameWithType: Rigid.AddForce(Int32)
+- uid: rgn.Physics.Rigid.AddForce*
+  name: AddForce
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_AddForce_
+  commentId: Overload:rgn.Physics.Rigid.AddForce
+  isSpec: "True"
+  fullName: rgn.Physics.Rigid.AddForce
+  nameWithType: Rigid.AddForce
+- uid: rgn.Physics.Rigid.AddTorque(System.Int32)
+  name: AddTorque(Int32)
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_AddTorque_System_Int32_
+  commentId: M:rgn.Physics.Rigid.AddTorque(System.Int32)
+  fullName: rgn.Physics.Rigid.AddTorque(System.Int32)
+  nameWithType: Rigid.AddTorque(Int32)
+- uid: rgn.Physics.Rigid.AddTorque*
+  name: AddTorque
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_AddTorque_
+  commentId: Overload:rgn.Physics.Rigid.AddTorque
+  isSpec: "True"
+  fullName: rgn.Physics.Rigid.AddTorque
+  nameWithType: Rigid.AddTorque
+- uid: rgn.Physics.Rigid.LinearVelocity
+  name: LinearVelocity
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_LinearVelocity
+  commentId: P:rgn.Physics.Rigid.LinearVelocity
+  fullName: rgn.Physics.Rigid.LinearVelocity
+  nameWithType: Rigid.LinearVelocity
+- uid: rgn.Physics.Rigid.LinearVelocity*
+  name: LinearVelocity
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_LinearVelocity_
+  commentId: Overload:rgn.Physics.Rigid.LinearVelocity
+  isSpec: "True"
+  fullName: rgn.Physics.Rigid.LinearVelocity
+  nameWithType: Rigid.LinearVelocity
 - uid: rgn.Timer
   name: Timer
   href: api/rgn.Timer.html
