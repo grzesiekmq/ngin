@@ -175,12 +175,12 @@ references:
   isSpec: "True"
   fullName: rgn.File.File
   nameWithType: File.File
-- uid: rgn.File.Load
-  name: Load()
-  href: api/rgn.File.html#rgn_File_Load
-  commentId: M:rgn.File.Load
-  fullName: rgn.File.Load()
-  nameWithType: File.Load()
+- uid: rgn.File.Load(System.String)
+  name: Load(String)
+  href: api/rgn.File.html#rgn_File_Load_System_String_
+  commentId: M:rgn.File.Load(System.String)
+  fullName: rgn.File.Load(System.String)
+  nameWithType: File.Load(String)
 - uid: rgn.File.Load*
   name: Load
   href: api/rgn.File.html#rgn_File_Load_
@@ -188,12 +188,12 @@ references:
   isSpec: "True"
   fullName: rgn.File.Load
   nameWithType: File.Load
-- uid: rgn.File.Save
-  name: Save()
-  href: api/rgn.File.html#rgn_File_Save
-  commentId: M:rgn.File.Save
-  fullName: rgn.File.Save()
-  nameWithType: File.Save()
+- uid: rgn.File.Save(System.String,System.Object)
+  name: Save(String, Object)
+  href: api/rgn.File.html#rgn_File_Save_System_String_System_Object_
+  commentId: M:rgn.File.Save(System.String,System.Object)
+  fullName: rgn.File.Save(System.String, System.Object)
+  nameWithType: File.Save(String, Object)
 - uid: rgn.File.Save*
   name: Save
   href: api/rgn.File.html#rgn_File_Save_
@@ -236,6 +236,31 @@ references:
   isSpec: "True"
   fullName: rgn.Maths.RandomItem
   nameWithType: Maths.RandomItem
+- uid: rgn.Physics
+  name: rgn.Physics
+  href: api/rgn.Physics.html
+  commentId: N:rgn.Physics
+  fullName: rgn.Physics
+  nameWithType: rgn.Physics
+- uid: rgn.Physics.Rigid
+  name: Rigid
+  href: api/rgn.Physics.Rigid.html
+  commentId: T:rgn.Physics.Rigid
+  fullName: rgn.Physics.Rigid
+  nameWithType: Rigid
+- uid: rgn.Physics.Rigid.#ctor
+  name: Rigid()
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor
+  commentId: M:rgn.Physics.Rigid.#ctor
+  fullName: rgn.Physics.Rigid.Rigid()
+  nameWithType: Rigid.Rigid()
+- uid: rgn.Physics.Rigid.#ctor*
+  name: Rigid
+  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor_
+  commentId: Overload:rgn.Physics.Rigid.#ctor
+  isSpec: "True"
+  fullName: rgn.Physics.Rigid.Rigid
+  nameWithType: Rigid.Rigid
 - uid: rgn.Timer
   name: Timer
   href: api/rgn.Timer.html
