@@ -91,6 +91,66 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Brake
   nameWithType: Car.Brake
+- uid: rgn.Car.CarType
+  name: Car.CarType
+  href: api/rgn.Car.CarType.html
+  commentId: T:rgn.Car.CarType
+  fullName: rgn.Car.CarType
+  nameWithType: Car.CarType
+- uid: rgn.Car.CarType.concept
+  name: concept
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_concept
+  commentId: F:rgn.Car.CarType.concept
+  fullName: rgn.Car.CarType.concept
+  nameWithType: Car.CarType.concept
+- uid: rgn.Car.CarType.drag
+  name: drag
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_drag
+  commentId: F:rgn.Car.CarType.drag
+  fullName: rgn.Car.CarType.drag
+  nameWithType: Car.CarType.drag
+- uid: rgn.Car.CarType.drift
+  name: drift
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_drift
+  commentId: F:rgn.Car.CarType.drift
+  fullName: rgn.Car.CarType.drift
+  nameWithType: Car.CarType.drift
+- uid: rgn.Car.CarType.hypercar
+  name: hypercar
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_hypercar
+  commentId: F:rgn.Car.CarType.hypercar
+  fullName: rgn.Car.CarType.hypercar
+  nameWithType: Car.CarType.hypercar
+- uid: rgn.Car.CarType.racecar
+  name: racecar
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_racecar
+  commentId: F:rgn.Car.CarType.racecar
+  fullName: rgn.Car.CarType.racecar
+  nameWithType: Car.CarType.racecar
+- uid: rgn.Car.CarType.rally
+  name: rally
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_rally
+  commentId: F:rgn.Car.CarType.rally
+  fullName: rgn.Car.CarType.rally
+  nameWithType: Car.CarType.rally
+- uid: rgn.Car.CarType.sports
+  name: sports
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_sports
+  commentId: F:rgn.Car.CarType.sports
+  fullName: rgn.Car.CarType.sports
+  nameWithType: Car.CarType.sports
+- uid: rgn.Car.CarType.supercar
+  name: supercar
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_supercar
+  commentId: F:rgn.Car.CarType.supercar
+  fullName: rgn.Car.CarType.supercar
+  nameWithType: Car.CarType.supercar
+- uid: rgn.Car.CarType.tuned
+  name: tuned
+  href: api/rgn.Car.CarType.html#rgn_Car_CarType_tuned
+  commentId: F:rgn.Car.CarType.tuned
+  fullName: rgn.Car.CarType.tuned
+  nameWithType: Car.CarType.tuned
 - uid: rgn.Car.Clutch
   name: Clutch
   href: api/rgn.Car.html#rgn_Car_Clutch
@@ -156,6 +216,30 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Distance
   nameWithType: Car.Distance
+- uid: rgn.Car.DriveType
+  name: Car.DriveType
+  href: api/rgn.Car.DriveType.html
+  commentId: T:rgn.Car.DriveType
+  fullName: rgn.Car.DriveType
+  nameWithType: Car.DriveType
+- uid: rgn.Car.DriveType.awd
+  name: awd
+  href: api/rgn.Car.DriveType.html#rgn_Car_DriveType_awd
+  commentId: F:rgn.Car.DriveType.awd
+  fullName: rgn.Car.DriveType.awd
+  nameWithType: Car.DriveType.awd
+- uid: rgn.Car.DriveType.fwd
+  name: fwd
+  href: api/rgn.Car.DriveType.html#rgn_Car_DriveType_fwd
+  commentId: F:rgn.Car.DriveType.fwd
+  fullName: rgn.Car.DriveType.fwd
+  nameWithType: Car.DriveType.fwd
+- uid: rgn.Car.DriveType.rwd
+  name: rwd
+  href: api/rgn.Car.DriveType.html#rgn_Car_DriveType_rwd
+  commentId: F:rgn.Car.DriveType.rwd
+  fullName: rgn.Car.DriveType.rwd
+  nameWithType: Car.DriveType.rwd
 - uid: rgn.Car.EnableCarPhysics
   name: EnableCarPhysics
   href: api/rgn.Car.html#rgn_Car_EnableCarPhysics
@@ -338,6 +422,84 @@ references:
   isSpec: "True"
   fullName: rgn.Car.MToKm
   nameWithType: Car.MToKm
+- uid: rgn.Car.Paint
+  name: Car.Paint
+  href: api/rgn.Car.Paint.html
+  commentId: T:rgn.Car.Paint
+  fullName: rgn.Car.Paint
+  nameWithType: Car.Paint
+- uid: rgn.Car.Paint.chrome
+  name: chrome
+  href: api/rgn.Car.Paint.html#rgn_Car_Paint_chrome
+  commentId: F:rgn.Car.Paint.chrome
+  fullName: rgn.Car.Paint.chrome
+  nameWithType: Car.Paint.chrome
+- uid: rgn.Car.Paint.matte
+  name: matte
+  href: api/rgn.Car.Paint.html#rgn_Car_Paint_matte
+  commentId: F:rgn.Car.Paint.matte
+  fullName: rgn.Car.Paint.matte
+  nameWithType: Car.Paint.matte
+- uid: rgn.Car.Paint.metallic
+  name: metallic
+  href: api/rgn.Car.Paint.html#rgn_Car_Paint_metallic
+  commentId: F:rgn.Car.Paint.metallic
+  fullName: rgn.Car.Paint.metallic
+  nameWithType: Car.Paint.metallic
+- uid: rgn.Car.Paint.pearl
+  name: pearl
+  href: api/rgn.Car.Paint.html#rgn_Car_Paint_pearl
+  commentId: F:rgn.Car.Paint.pearl
+  fullName: rgn.Car.Paint.pearl
+  nameWithType: Car.Paint.pearl
+- uid: rgn.Car.Paint.solid
+  name: solid
+  href: api/rgn.Car.Paint.html#rgn_Car_Paint_solid
+  commentId: F:rgn.Car.Paint.solid
+  fullName: rgn.Car.Paint.solid
+  nameWithType: Car.Paint.solid
+- uid: rgn.Car.Price
+  name: Car.Price
+  href: api/rgn.Car.Price.html
+  commentId: T:rgn.Car.Price
+  fullName: rgn.Car.Price
+  nameWithType: Car.Price
+- uid: rgn.Car.Price.eur
+  name: eur
+  href: api/rgn.Car.Price.html#rgn_Car_Price_eur
+  commentId: F:rgn.Car.Price.eur
+  fullName: rgn.Car.Price.eur
+  nameWithType: Car.Price.eur
+- uid: rgn.Car.Price.usd
+  name: usd
+  href: api/rgn.Car.Price.html#rgn_Car_Price_usd
+  commentId: F:rgn.Car.Price.usd
+  fullName: rgn.Car.Price.usd
+  nameWithType: Car.Price.usd
+- uid: rgn.Car.RacingType
+  name: Car.RacingType
+  href: api/rgn.Car.RacingType.html
+  commentId: T:rgn.Car.RacingType
+  fullName: rgn.Car.RacingType
+  nameWithType: Car.RacingType
+- uid: rgn.Car.RacingType.F1
+  name: F1
+  href: api/rgn.Car.RacingType.html#rgn_Car_RacingType_F1
+  commentId: F:rgn.Car.RacingType.F1
+  fullName: rgn.Car.RacingType.F1
+  nameWithType: Car.RacingType.F1
+- uid: rgn.Car.RacingType.GTR
+  name: GTR
+  href: api/rgn.Car.RacingType.html#rgn_Car_RacingType_GTR
+  commentId: F:rgn.Car.RacingType.GTR
+  fullName: rgn.Car.RacingType.GTR
+  nameWithType: Car.RacingType.GTR
+- uid: rgn.Car.RacingType.Touring
+  name: Touring
+  href: api/rgn.Car.RacingType.html#rgn_Car_RacingType_Touring
+  commentId: F:rgn.Car.RacingType.Touring
+  fullName: rgn.Car.RacingType.Touring
+  nameWithType: Car.RacingType.Touring
 - uid: rgn.Car.RearTrack
   name: RearTrack
   href: api/rgn.Car.html#rgn_Car_RearTrack
@@ -364,6 +526,42 @@ references:
   isSpec: "True"
   fullName: rgn.Car.RPM
   nameWithType: Car.RPM
+- uid: rgn.Car.SafetySystems
+  name: Car.SafetySystems
+  href: api/rgn.Car.SafetySystems.html
+  commentId: T:rgn.Car.SafetySystems
+  fullName: rgn.Car.SafetySystems
+  nameWithType: Car.SafetySystems
+- uid: rgn.Car.SafetySystems.ABS
+  name: ABS
+  href: api/rgn.Car.SafetySystems.html#rgn_Car_SafetySystems_ABS
+  commentId: F:rgn.Car.SafetySystems.ABS
+  fullName: rgn.Car.SafetySystems.ABS
+  nameWithType: Car.SafetySystems.ABS
+- uid: rgn.Car.SafetySystems.ASR
+  name: ASR
+  href: api/rgn.Car.SafetySystems.html#rgn_Car_SafetySystems_ASR
+  commentId: F:rgn.Car.SafetySystems.ASR
+  fullName: rgn.Car.SafetySystems.ASR
+  nameWithType: Car.SafetySystems.ASR
+- uid: rgn.Car.SafetySystems.ESC
+  name: ESC
+  href: api/rgn.Car.SafetySystems.html#rgn_Car_SafetySystems_ESC
+  commentId: F:rgn.Car.SafetySystems.ESC
+  fullName: rgn.Car.SafetySystems.ESC
+  nameWithType: Car.SafetySystems.ESC
+- uid: rgn.Car.SafetySystems.ESP
+  name: ESP
+  href: api/rgn.Car.SafetySystems.html#rgn_Car_SafetySystems_ESP
+  commentId: F:rgn.Car.SafetySystems.ESP
+  fullName: rgn.Car.SafetySystems.ESP
+  nameWithType: Car.SafetySystems.ESP
+- uid: rgn.Car.SafetySystems.TCS
+  name: TCS
+  href: api/rgn.Car.SafetySystems.html#rgn_Car_SafetySystems_TCS
+  commentId: F:rgn.Car.SafetySystems.TCS
+  fullName: rgn.Car.SafetySystems.TCS
+  nameWithType: Car.SafetySystems.TCS
 - uid: rgn.Car.Speed
   name: Speed
   href: api/rgn.Car.html#rgn_Car_Speed
@@ -429,6 +627,127 @@ references:
   isSpec: "True"
   fullName: rgn.Car.TireExploit
   nameWithType: Car.TireExploit
+- uid: rgn.Car.TireType
+  name: Car.TireType
+  href: api/rgn.Car.TireType.html
+  commentId: T:rgn.Car.TireType
+  fullName: rgn.Car.TireType
+  nameWithType: Car.TireType
+- uid: rgn.Car.TireType.dirt
+  name: dirt
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_dirt
+  commentId: F:rgn.Car.TireType.dirt
+  fullName: rgn.Car.TireType.dirt
+  nameWithType: Car.TireType.dirt
+- uid: rgn.Car.TireType.dry
+  name: dry
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_dry
+  commentId: F:rgn.Car.TireType.dry
+  fullName: rgn.Car.TireType.dry
+  nameWithType: Car.TireType.dry
+- uid: rgn.Car.TireType.hard
+  name: hard
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_hard
+  commentId: F:rgn.Car.TireType.hard
+  fullName: rgn.Car.TireType.hard
+  nameWithType: Car.TireType.hard
+- uid: rgn.Car.TireType.medium
+  name: medium
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_medium
+  commentId: F:rgn.Car.TireType.medium
+  fullName: rgn.Car.TireType.medium
+  nameWithType: Car.TireType.medium
+- uid: rgn.Car.TireType.rally
+  name: rally
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_rally
+  commentId: F:rgn.Car.TireType.rally
+  fullName: rgn.Car.TireType.rally
+  nameWithType: Car.TireType.rally
+- uid: rgn.Car.TireType.semiSlick
+  name: semiSlick
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_semiSlick
+  commentId: F:rgn.Car.TireType.semiSlick
+  fullName: rgn.Car.TireType.semiSlick
+  nameWithType: Car.TireType.semiSlick
+- uid: rgn.Car.TireType.slick
+  name: slick
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_slick
+  commentId: F:rgn.Car.TireType.slick
+  fullName: rgn.Car.TireType.slick
+  nameWithType: Car.TireType.slick
+- uid: rgn.Car.TireType.snow
+  name: snow
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_snow
+  commentId: F:rgn.Car.TireType.snow
+  fullName: rgn.Car.TireType.snow
+  nameWithType: Car.TireType.snow
+- uid: rgn.Car.TireType.soft
+  name: soft
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_soft
+  commentId: F:rgn.Car.TireType.soft
+  fullName: rgn.Car.TireType.soft
+  nameWithType: Car.TireType.soft
+- uid: rgn.Car.TireType.sport
+  name: sport
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_sport
+  commentId: F:rgn.Car.TireType.sport
+  fullName: rgn.Car.TireType.sport
+  nameWithType: Car.TireType.sport
+- uid: rgn.Car.TireType.street
+  name: street
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_street
+  commentId: F:rgn.Car.TireType.street
+  fullName: rgn.Car.TireType.street
+  nameWithType: Car.TireType.street
+- uid: rgn.Car.TireType.summer
+  name: summer
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_summer
+  commentId: F:rgn.Car.TireType.summer
+  fullName: rgn.Car.TireType.summer
+  nameWithType: Car.TireType.summer
+- uid: rgn.Car.TireType.supersoft
+  name: supersoft
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_supersoft
+  commentId: F:rgn.Car.TireType.supersoft
+  fullName: rgn.Car.TireType.supersoft
+  nameWithType: Car.TireType.supersoft
+- uid: rgn.Car.TireType.wet
+  name: wet
+  href: api/rgn.Car.TireType.html#rgn_Car_TireType_wet
+  commentId: F:rgn.Car.TireType.wet
+  fullName: rgn.Car.TireType.wet
+  nameWithType: Car.TireType.wet
+- uid: rgn.Car.TopSpeed
+  name: TopSpeed
+  href: api/rgn.Car.html#rgn_Car_TopSpeed
+  commentId: P:rgn.Car.TopSpeed
+  fullName: rgn.Car.TopSpeed
+  nameWithType: Car.TopSpeed
+- uid: rgn.Car.TopSpeed*
+  name: TopSpeed
+  href: api/rgn.Car.html#rgn_Car_TopSpeed_
+  commentId: Overload:rgn.Car.TopSpeed
+  isSpec: "True"
+  fullName: rgn.Car.TopSpeed
+  nameWithType: Car.TopSpeed
+- uid: rgn.Car.TransmissionType
+  name: Car.TransmissionType
+  href: api/rgn.Car.TransmissionType.html
+  commentId: T:rgn.Car.TransmissionType
+  fullName: rgn.Car.TransmissionType
+  nameWithType: Car.TransmissionType
+- uid: rgn.Car.TransmissionType.AT
+  name: AT
+  href: api/rgn.Car.TransmissionType.html#rgn_Car_TransmissionType_AT
+  commentId: F:rgn.Car.TransmissionType.AT
+  fullName: rgn.Car.TransmissionType.AT
+  nameWithType: Car.TransmissionType.AT
+- uid: rgn.Car.TransmissionType.MT
+  name: MT
+  href: api/rgn.Car.TransmissionType.html#rgn_Car_TransmissionType_MT
+  commentId: F:rgn.Car.TransmissionType.MT
+  fullName: rgn.Car.TransmissionType.MT
+  nameWithType: Car.TransmissionType.MT
 - uid: rgn.Car.TurnRadius
   name: TurnRadius
   href: api/rgn.Car.html#rgn_Car_TurnRadius
@@ -468,6 +787,36 @@ references:
   isSpec: "True"
   fullName: rgn.Car.WheelBase
   nameWithType: Car.WheelBase
+- uid: rgn.Car.WheelColliders
+  name: Car.WheelColliders
+  href: api/rgn.Car.WheelColliders.html
+  commentId: T:rgn.Car.WheelColliders
+  fullName: rgn.Car.WheelColliders
+  nameWithType: Car.WheelColliders
+- uid: rgn.Car.WheelColliders.ColFL
+  name: ColFL
+  href: api/rgn.Car.WheelColliders.html#rgn_Car_WheelColliders_ColFL
+  commentId: F:rgn.Car.WheelColliders.ColFL
+  fullName: rgn.Car.WheelColliders.ColFL
+  nameWithType: Car.WheelColliders.ColFL
+- uid: rgn.Car.WheelColliders.ColFR
+  name: ColFR
+  href: api/rgn.Car.WheelColliders.html#rgn_Car_WheelColliders_ColFR
+  commentId: F:rgn.Car.WheelColliders.ColFR
+  fullName: rgn.Car.WheelColliders.ColFR
+  nameWithType: Car.WheelColliders.ColFR
+- uid: rgn.Car.WheelColliders.ColRL
+  name: ColRL
+  href: api/rgn.Car.WheelColliders.html#rgn_Car_WheelColliders_ColRL
+  commentId: F:rgn.Car.WheelColliders.ColRL
+  fullName: rgn.Car.WheelColliders.ColRL
+  nameWithType: Car.WheelColliders.ColRL
+- uid: rgn.Car.WheelColliders.ColRR
+  name: ColRR
+  href: api/rgn.Car.WheelColliders.html#rgn_Car_WheelColliders_ColRR
+  commentId: F:rgn.Car.WheelColliders.ColRR
+  fullName: rgn.Car.WheelColliders.ColRR
+  nameWithType: Car.WheelColliders.ColRR
 - uid: rgn.Car.WheelRadius
   name: WheelRadius
   href: api/rgn.Car.html#rgn_Car_WheelRadius
@@ -481,6 +830,36 @@ references:
   isSpec: "True"
   fullName: rgn.Car.WheelRadius
   nameWithType: Car.WheelRadius
+- uid: rgn.Car.Wheels
+  name: Car.Wheels
+  href: api/rgn.Car.Wheels.html
+  commentId: T:rgn.Car.Wheels
+  fullName: rgn.Car.Wheels
+  nameWithType: Car.Wheels
+- uid: rgn.Car.Wheels.FL
+  name: FL
+  href: api/rgn.Car.Wheels.html#rgn_Car_Wheels_FL
+  commentId: F:rgn.Car.Wheels.FL
+  fullName: rgn.Car.Wheels.FL
+  nameWithType: Car.Wheels.FL
+- uid: rgn.Car.Wheels.FR
+  name: FR
+  href: api/rgn.Car.Wheels.html#rgn_Car_Wheels_FR
+  commentId: F:rgn.Car.Wheels.FR
+  fullName: rgn.Car.Wheels.FR
+  nameWithType: Car.Wheels.FR
+- uid: rgn.Car.Wheels.RL
+  name: RL
+  href: api/rgn.Car.Wheels.html#rgn_Car_Wheels_RL
+  commentId: F:rgn.Car.Wheels.RL
+  fullName: rgn.Car.Wheels.RL
+  nameWithType: Car.Wheels.RL
+- uid: rgn.Car.Wheels.RR
+  name: RR
+  href: api/rgn.Car.Wheels.html#rgn_Car_Wheels_RR
+  commentId: F:rgn.Car.Wheels.RR
+  fullName: rgn.Car.Wheels.RR
+  nameWithType: Car.Wheels.RR
 - uid: rgn.File
   name: File
   href: api/rgn.File.html

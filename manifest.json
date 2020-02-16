@@ -26,11 +26,131 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.CarType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.CarType.html",
+          "hash": "+qjpbjZYz2W51IcIVwKeLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.DriveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.DriveType.html",
+          "hash": "Pf6ibduwP6xEvDk4ozGU0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.Paint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.Paint.html",
+          "hash": "FBno65QHnPaBv6Rp+CRVEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.Price.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.Price.html",
+          "hash": "h+9w7UaXurmink5BmE9B/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.RacingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.RacingType.html",
+          "hash": "pU4fnzqoT+HZt0psuZexJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.SafetySystems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.SafetySystems.html",
+          "hash": "9V8tqWm0L/OloEXYVsXsfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.TireType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.TireType.html",
+          "hash": "yLhp7U2pNhI3xpHO3ggOwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.TransmissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.TransmissionType.html",
+          "hash": "V92oHymPiDdQf6vqC4G5XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.WheelColliders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.WheelColliders.html",
+          "hash": "XmpVt9lOCwa/jtMbntBUgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Car.Wheels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Car.Wheels.html",
+          "hash": "fuRtT+J7WxYrwm8qenhRUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/rgn.Car.yml",
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.html",
-          "hash": "zDkwUFYl6VTj4TjnejbRBQ=="
+          "hash": "y7iwdnFyQe7UKhNsktofyw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.html",
-          "hash": "p9fcIvIPFMDTnmPpRVz7aQ=="
+          "hash": "wBJVC1+A/a0hSkMXmg3Ceg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "7m5qcM//MRgVM+UPeJg4pQ=="
+          "hash": "VoJixVwxrhss1bkW2LV3bw=="
         }
       },
       "is_incremental": false,
@@ -152,8 +272,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 15
+          "total_file_count": 25,
+          "skipped_file_count": 13
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
