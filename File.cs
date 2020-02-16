@@ -1,7 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.IO;
-using Newtonsoft.Json;
-
 
 namespace rgn
 {
@@ -10,6 +8,7 @@ namespace rgn
         public File()
         {
         }
+
         /// <summary>
         /// Loads and parses the json file.
         /// </summary>
@@ -17,13 +16,11 @@ namespace rgn
         /// <param name="file">File.</param>
         public static object Load(string file)
         {
-
             StreamReader sr = System.IO.File.OpenText(file);
             var contents = sr.ReadToEnd();
             dynamic json = JsonConvert.DeserializeObject(contents);
 
             return json;
-
         }
 
         /// <summary>
@@ -36,9 +33,5 @@ namespace rgn
             var json = JsonConvert.SerializeObject(contents);
             System.IO.File.WriteAllText(file, json);
         }
-
     }
-
-
-
 }
