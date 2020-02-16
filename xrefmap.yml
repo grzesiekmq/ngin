@@ -13,6 +13,19 @@ references:
   commentId: T:rgn.Car
   fullName: rgn.Car
   nameWithType: Car
+- uid: rgn.Car.#ctor(System.String,System.String,System.String,System.Int32)
+  name: Car(String, String, String, Int32)
+  href: api/rgn.Car.html#rgn_Car__ctor_System_String_System_String_System_String_System_Int32_
+  commentId: M:rgn.Car.#ctor(System.String,System.String,System.String,System.Int32)
+  fullName: rgn.Car.Car(System.String, System.String, System.String, System.Int32)
+  nameWithType: Car.Car(String, String, String, Int32)
+- uid: rgn.Car.#ctor*
+  name: Car
+  href: api/rgn.Car.html#rgn_Car__ctor_
+  commentId: Overload:rgn.Car.#ctor
+  isSpec: "True"
+  fullName: rgn.Car.Car
+  nameWithType: Car.Car
 - uid: rgn.Car.Accelerate(System.Int32)
   name: Accelerate(Int32)
   href: api/rgn.Car.html#rgn_Car_Accelerate_System_Int32_
@@ -52,6 +65,19 @@ references:
   isSpec: "True"
   fullName: rgn.Car.AckermannRight
   nameWithType: Car.AckermannRight
+- uid: rgn.Car.AImode
+  name: AImode
+  href: api/rgn.Car.html#rgn_Car_AImode
+  commentId: P:rgn.Car.AImode
+  fullName: rgn.Car.AImode
+  nameWithType: Car.AImode
+- uid: rgn.Car.AImode*
+  name: AImode
+  href: api/rgn.Car.html#rgn_Car_AImode_
+  commentId: Overload:rgn.Car.AImode
+  isSpec: "True"
+  fullName: rgn.Car.AImode
+  nameWithType: Car.AImode
 - uid: rgn.Car.Brake(System.Int32)
   name: Brake(Int32)
   href: api/rgn.Car.html#rgn_Car_Brake_System_Int32_
@@ -65,6 +91,58 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Brake
   nameWithType: Car.Brake
+- uid: rgn.Car.Clutch
+  name: Clutch
+  href: api/rgn.Car.html#rgn_Car_Clutch
+  commentId: P:rgn.Car.Clutch
+  fullName: rgn.Car.Clutch
+  nameWithType: Car.Clutch
+- uid: rgn.Car.Clutch*
+  name: Clutch
+  href: api/rgn.Car.html#rgn_Car_Clutch_
+  commentId: Overload:rgn.Car.Clutch
+  isSpec: "True"
+  fullName: rgn.Car.Clutch
+  nameWithType: Car.Clutch
+- uid: rgn.Car.Color
+  name: Color
+  href: api/rgn.Car.html#rgn_Car_Color
+  commentId: P:rgn.Car.Color
+  fullName: rgn.Car.Color
+  nameWithType: Car.Color
+- uid: rgn.Car.Color*
+  name: Color
+  href: api/rgn.Car.html#rgn_Car_Color_
+  commentId: Overload:rgn.Car.Color
+  isSpec: "True"
+  fullName: rgn.Car.Color
+  nameWithType: Car.Color
+- uid: rgn.Car.Description
+  name: Description
+  href: api/rgn.Car.html#rgn_Car_Description
+  commentId: P:rgn.Car.Description
+  fullName: rgn.Car.Description
+  nameWithType: Car.Description
+- uid: rgn.Car.Description*
+  name: Description
+  href: api/rgn.Car.html#rgn_Car_Description_
+  commentId: Overload:rgn.Car.Description
+  isSpec: "True"
+  fullName: rgn.Car.Description
+  nameWithType: Car.Description
+- uid: rgn.Car.Differential
+  name: Differential
+  href: api/rgn.Car.html#rgn_Car_Differential
+  commentId: P:rgn.Car.Differential
+  fullName: rgn.Car.Differential
+  nameWithType: Car.Differential
+- uid: rgn.Car.Differential*
+  name: Differential
+  href: api/rgn.Car.html#rgn_Car_Differential_
+  commentId: Overload:rgn.Car.Differential
+  isSpec: "True"
+  fullName: rgn.Car.Differential
+  nameWithType: Car.Differential
 - uid: rgn.Car.Distance
   name: Distance
   href: api/rgn.Car.html#rgn_Car_Distance
@@ -78,6 +156,110 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Distance
   nameWithType: Car.Distance
+- uid: rgn.Car.EnableCarPhysics
+  name: EnableCarPhysics
+  href: api/rgn.Car.html#rgn_Car_EnableCarPhysics
+  commentId: P:rgn.Car.EnableCarPhysics
+  fullName: rgn.Car.EnableCarPhysics
+  nameWithType: Car.EnableCarPhysics
+- uid: rgn.Car.EnableCarPhysics*
+  name: EnableCarPhysics
+  href: api/rgn.Car.html#rgn_Car_EnableCarPhysics_
+  commentId: Overload:rgn.Car.EnableCarPhysics
+  isSpec: "True"
+  fullName: rgn.Car.EnableCarPhysics
+  nameWithType: Car.EnableCarPhysics
+- uid: rgn.Car.FuelConsumption
+  name: FuelConsumption
+  href: api/rgn.Car.html#rgn_Car_FuelConsumption
+  commentId: P:rgn.Car.FuelConsumption
+  fullName: rgn.Car.FuelConsumption
+  nameWithType: Car.FuelConsumption
+- uid: rgn.Car.FuelConsumption*
+  name: FuelConsumption
+  href: api/rgn.Car.html#rgn_Car_FuelConsumption_
+  commentId: Overload:rgn.Car.FuelConsumption
+  isSpec: "True"
+  fullName: rgn.Car.FuelConsumption
+  nameWithType: Car.FuelConsumption
+- uid: rgn.Car.Gearbox
+  name: Gearbox
+  href: api/rgn.Car.html#rgn_Car_Gearbox
+  commentId: P:rgn.Car.Gearbox
+  fullName: rgn.Car.Gearbox
+  nameWithType: Car.Gearbox
+- uid: rgn.Car.Gearbox*
+  name: Gearbox
+  href: api/rgn.Car.html#rgn_Car_Gearbox_
+  commentId: Overload:rgn.Car.Gearbox
+  isSpec: "True"
+  fullName: rgn.Car.Gearbox
+  nameWithType: Car.Gearbox
+- uid: rgn.Car.HP
+  name: HP
+  href: api/rgn.Car.html#rgn_Car_HP
+  commentId: P:rgn.Car.HP
+  fullName: rgn.Car.HP
+  nameWithType: Car.HP
+- uid: rgn.Car.HP*
+  name: HP
+  href: api/rgn.Car.html#rgn_Car_HP_
+  commentId: Overload:rgn.Car.HP
+  isSpec: "True"
+  fullName: rgn.Car.HP
+  nameWithType: Car.HP
+- uid: rgn.Car.IsInMeeting
+  name: IsInMeeting
+  href: api/rgn.Car.html#rgn_Car_IsInMeeting
+  commentId: P:rgn.Car.IsInMeeting
+  fullName: rgn.Car.IsInMeeting
+  nameWithType: Car.IsInMeeting
+- uid: rgn.Car.IsInMeeting*
+  name: IsInMeeting
+  href: api/rgn.Car.html#rgn_Car_IsInMeeting_
+  commentId: Overload:rgn.Car.IsInMeeting
+  isSpec: "True"
+  fullName: rgn.Car.IsInMeeting
+  nameWithType: Car.IsInMeeting
+- uid: rgn.Car.IsLocked
+  name: IsLocked
+  href: api/rgn.Car.html#rgn_Car_IsLocked
+  commentId: P:rgn.Car.IsLocked
+  fullName: rgn.Car.IsLocked
+  nameWithType: Car.IsLocked
+- uid: rgn.Car.IsLocked*
+  name: IsLocked
+  href: api/rgn.Car.html#rgn_Car_IsLocked_
+  commentId: Overload:rgn.Car.IsLocked
+  isSpec: "True"
+  fullName: rgn.Car.IsLocked
+  nameWithType: Car.IsLocked
+- uid: rgn.Car.IsOnTrack
+  name: IsOnTrack
+  href: api/rgn.Car.html#rgn_Car_IsOnTrack
+  commentId: P:rgn.Car.IsOnTrack
+  fullName: rgn.Car.IsOnTrack
+  nameWithType: Car.IsOnTrack
+- uid: rgn.Car.IsOnTrack*
+  name: IsOnTrack
+  href: api/rgn.Car.html#rgn_Car_IsOnTrack_
+  commentId: Overload:rgn.Car.IsOnTrack
+  isSpec: "True"
+  fullName: rgn.Car.IsOnTrack
+  nameWithType: Car.IsOnTrack
+- uid: rgn.Car.IsUsed
+  name: IsUsed
+  href: api/rgn.Car.html#rgn_Car_IsUsed
+  commentId: P:rgn.Car.IsUsed
+  fullName: rgn.Car.IsUsed
+  nameWithType: Car.IsUsed
+- uid: rgn.Car.IsUsed*
+  name: IsUsed
+  href: api/rgn.Car.html#rgn_Car_IsUsed_
+  commentId: Overload:rgn.Car.IsUsed
+  isSpec: "True"
+  fullName: rgn.Car.IsUsed
+  nameWithType: Car.IsUsed
 - uid: rgn.Car.KmhToMph(System.Int32)
   name: KmhToMph(Int32)
   href: api/rgn.Car.html#rgn_Car_KmhToMph_System_Int32_
@@ -91,6 +273,32 @@ references:
   isSpec: "True"
   fullName: rgn.Car.KmhToMph
   nameWithType: Car.KmhToMph
+- uid: rgn.Car.Make
+  name: Make
+  href: api/rgn.Car.html#rgn_Car_Make
+  commentId: P:rgn.Car.Make
+  fullName: rgn.Car.Make
+  nameWithType: Car.Make
+- uid: rgn.Car.Make*
+  name: Make
+  href: api/rgn.Car.html#rgn_Car_Make_
+  commentId: Overload:rgn.Car.Make
+  isSpec: "True"
+  fullName: rgn.Car.Make
+  nameWithType: Car.Make
+- uid: rgn.Car.Model
+  name: Model
+  href: api/rgn.Car.html#rgn_Car_Model
+  commentId: P:rgn.Car.Model
+  fullName: rgn.Car.Model
+  nameWithType: Car.Model
+- uid: rgn.Car.Model*
+  name: Model
+  href: api/rgn.Car.html#rgn_Car_Model_
+  commentId: Overload:rgn.Car.Model
+  isSpec: "True"
+  fullName: rgn.Car.Model
+  nameWithType: Car.Model
 - uid: rgn.Car.MphToKmh(System.Int32)
   name: MphToKmh(Int32)
   href: api/rgn.Car.html#rgn_Car_MphToKmh_System_Int32_
@@ -130,6 +338,32 @@ references:
   isSpec: "True"
   fullName: rgn.Car.MToKm
   nameWithType: Car.MToKm
+- uid: rgn.Car.RearTrack
+  name: RearTrack
+  href: api/rgn.Car.html#rgn_Car_RearTrack
+  commentId: P:rgn.Car.RearTrack
+  fullName: rgn.Car.RearTrack
+  nameWithType: Car.RearTrack
+- uid: rgn.Car.RearTrack*
+  name: RearTrack
+  href: api/rgn.Car.html#rgn_Car_RearTrack_
+  commentId: Overload:rgn.Car.RearTrack
+  isSpec: "True"
+  fullName: rgn.Car.RearTrack
+  nameWithType: Car.RearTrack
+- uid: rgn.Car.RPM
+  name: RPM
+  href: api/rgn.Car.html#rgn_Car_RPM
+  commentId: P:rgn.Car.RPM
+  fullName: rgn.Car.RPM
+  nameWithType: Car.RPM
+- uid: rgn.Car.RPM*
+  name: RPM
+  href: api/rgn.Car.html#rgn_Car_RPM_
+  commentId: Overload:rgn.Car.RPM
+  isSpec: "True"
+  fullName: rgn.Car.RPM
+  nameWithType: Car.RPM
 - uid: rgn.Car.Speed
   name: Speed
   href: api/rgn.Car.html#rgn_Car_Speed
@@ -169,6 +403,84 @@ references:
   isSpec: "True"
   fullName: rgn.Car.SteerRight
   nameWithType: Car.SteerRight
+- uid: rgn.Car.Suspension
+  name: Suspension
+  href: api/rgn.Car.html#rgn_Car_Suspension
+  commentId: P:rgn.Car.Suspension
+  fullName: rgn.Car.Suspension
+  nameWithType: Car.Suspension
+- uid: rgn.Car.Suspension*
+  name: Suspension
+  href: api/rgn.Car.html#rgn_Car_Suspension_
+  commentId: Overload:rgn.Car.Suspension
+  isSpec: "True"
+  fullName: rgn.Car.Suspension
+  nameWithType: Car.Suspension
+- uid: rgn.Car.TireExploit
+  name: TireExploit
+  href: api/rgn.Car.html#rgn_Car_TireExploit
+  commentId: P:rgn.Car.TireExploit
+  fullName: rgn.Car.TireExploit
+  nameWithType: Car.TireExploit
+- uid: rgn.Car.TireExploit*
+  name: TireExploit
+  href: api/rgn.Car.html#rgn_Car_TireExploit_
+  commentId: Overload:rgn.Car.TireExploit
+  isSpec: "True"
+  fullName: rgn.Car.TireExploit
+  nameWithType: Car.TireExploit
+- uid: rgn.Car.TurnRadius
+  name: TurnRadius
+  href: api/rgn.Car.html#rgn_Car_TurnRadius
+  commentId: P:rgn.Car.TurnRadius
+  fullName: rgn.Car.TurnRadius
+  nameWithType: Car.TurnRadius
+- uid: rgn.Car.TurnRadius*
+  name: TurnRadius
+  href: api/rgn.Car.html#rgn_Car_TurnRadius_
+  commentId: Overload:rgn.Car.TurnRadius
+  isSpec: "True"
+  fullName: rgn.Car.TurnRadius
+  nameWithType: Car.TurnRadius
+- uid: rgn.Car.Weight
+  name: Weight
+  href: api/rgn.Car.html#rgn_Car_Weight
+  commentId: P:rgn.Car.Weight
+  fullName: rgn.Car.Weight
+  nameWithType: Car.Weight
+- uid: rgn.Car.Weight*
+  name: Weight
+  href: api/rgn.Car.html#rgn_Car_Weight_
+  commentId: Overload:rgn.Car.Weight
+  isSpec: "True"
+  fullName: rgn.Car.Weight
+  nameWithType: Car.Weight
+- uid: rgn.Car.WheelBase
+  name: WheelBase
+  href: api/rgn.Car.html#rgn_Car_WheelBase
+  commentId: P:rgn.Car.WheelBase
+  fullName: rgn.Car.WheelBase
+  nameWithType: Car.WheelBase
+- uid: rgn.Car.WheelBase*
+  name: WheelBase
+  href: api/rgn.Car.html#rgn_Car_WheelBase_
+  commentId: Overload:rgn.Car.WheelBase
+  isSpec: "True"
+  fullName: rgn.Car.WheelBase
+  nameWithType: Car.WheelBase
+- uid: rgn.Car.WheelRadius
+  name: WheelRadius
+  href: api/rgn.Car.html#rgn_Car_WheelRadius
+  commentId: P:rgn.Car.WheelRadius
+  fullName: rgn.Car.WheelRadius
+  nameWithType: Car.WheelRadius
+- uid: rgn.Car.WheelRadius*
+  name: WheelRadius
+  href: api/rgn.Car.html#rgn_Car_WheelRadius_
+  commentId: Overload:rgn.Car.WheelRadius
+  isSpec: "True"
+  fullName: rgn.Car.WheelRadius
+  nameWithType: Car.WheelRadius
 - uid: rgn.File
   name: File
   href: api/rgn.File.html
@@ -261,19 +573,6 @@ references:
   commentId: T:rgn.Physics.Rigid
   fullName: rgn.Physics.Rigid
   nameWithType: Rigid
-- uid: rgn.Physics.Rigid.#ctor(System.Int32,System.Single,System.Single)
-  name: Rigid(Int32, Single, Single)
-  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor_System_Int32_System_Single_System_Single_
-  commentId: M:rgn.Physics.Rigid.#ctor(System.Int32,System.Single,System.Single)
-  fullName: rgn.Physics.Rigid.Rigid(System.Int32, System.Single, System.Single)
-  nameWithType: Rigid.Rigid(Int32, Single, Single)
-- uid: rgn.Physics.Rigid.#ctor*
-  name: Rigid
-  href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid__ctor_
-  commentId: Overload:rgn.Physics.Rigid.#ctor
-  isSpec: "True"
-  fullName: rgn.Physics.Rigid.Rigid
-  nameWithType: Rigid.Rigid
 - uid: rgn.Physics.Rigid.AddForce(System.Int32)
   name: AddForce(Int32)
   href: api/rgn.Physics.Rigid.html#rgn_Physics_Rigid_AddForce_System_Int32_
@@ -332,19 +631,6 @@ references:
   isSpec: "True"
   fullName: rgn.Timer.Timer
   nameWithType: Timer.Timer
-- uid: rgn.Timer.Countdown
-  name: Countdown()
-  href: api/rgn.Timer.html#rgn_Timer_Countdown
-  commentId: M:rgn.Timer.Countdown
-  fullName: rgn.Timer.Countdown()
-  nameWithType: Timer.Countdown()
-- uid: rgn.Timer.Countdown*
-  name: Countdown
-  href: api/rgn.Timer.html#rgn_Timer_Countdown_
-  commentId: Overload:rgn.Timer.Countdown
-  isSpec: "True"
-  fullName: rgn.Timer.Countdown
-  nameWithType: Timer.Countdown
 - uid: rgn.Timer.Start
   name: Start()
   href: api/rgn.Timer.html#rgn_Timer_Start
