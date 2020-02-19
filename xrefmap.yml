@@ -7,18 +7,84 @@ references:
   commentId: N:rgn
   fullName: rgn
   nameWithType: rgn
+- uid: rgn.Camera
+  name: Camera
+  href: api/rgn.Camera.html
+  commentId: T:rgn.Camera
+  fullName: rgn.Camera
+  nameWithType: Camera
+- uid: rgn.Camera.CameraView
+  name: Camera.CameraView
+  href: api/rgn.Camera.CameraView.html
+  commentId: T:rgn.Camera.CameraView
+  fullName: rgn.Camera.CameraView
+  nameWithType: Camera.CameraView
+- uid: rgn.Camera.CameraView.back
+  name: back
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_back
+  commentId: F:rgn.Camera.CameraView.back
+  fullName: rgn.Camera.CameraView.back
+  nameWithType: Camera.CameraView.back
+- uid: rgn.Camera.CameraView.bumper
+  name: bumper
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_bumper
+  commentId: F:rgn.Camera.CameraView.bumper
+  fullName: rgn.Camera.CameraView.bumper
+  nameWithType: Camera.CameraView.bumper
+- uid: rgn.Camera.CameraView.driver
+  name: driver
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_driver
+  commentId: F:rgn.Camera.CameraView.driver
+  fullName: rgn.Camera.CameraView.driver
+  nameWithType: Camera.CameraView.driver
+- uid: rgn.Camera.CameraView.far
+  name: far
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_far
+  commentId: F:rgn.Camera.CameraView.far
+  fullName: rgn.Camera.CameraView.far
+  nameWithType: Camera.CameraView.far
+- uid: rgn.Camera.CameraView.front
+  name: front
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_front
+  commentId: F:rgn.Camera.CameraView.front
+  fullName: rgn.Camera.CameraView.front
+  nameWithType: Camera.CameraView.front
+- uid: rgn.Camera.CameraView.hood
+  name: hood
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_hood
+  commentId: F:rgn.Camera.CameraView.hood
+  fullName: rgn.Camera.CameraView.hood
+  nameWithType: Camera.CameraView.hood
+- uid: rgn.Camera.CameraView.near
+  name: near
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_near
+  commentId: F:rgn.Camera.CameraView.near
+  fullName: rgn.Camera.CameraView.near
+  nameWithType: Camera.CameraView.near
+- uid: rgn.Camera.CameraView.sideLeft
+  name: sideLeft
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_sideLeft
+  commentId: F:rgn.Camera.CameraView.sideLeft
+  fullName: rgn.Camera.CameraView.sideLeft
+  nameWithType: Camera.CameraView.sideLeft
+- uid: rgn.Camera.CameraView.sideRight
+  name: sideRight
+  href: api/rgn.Camera.CameraView.html#rgn_Camera_CameraView_sideRight
+  commentId: F:rgn.Camera.CameraView.sideRight
+  fullName: rgn.Camera.CameraView.sideRight
+  nameWithType: Camera.CameraView.sideRight
 - uid: rgn.Car
   name: Car
   href: api/rgn.Car.html
   commentId: T:rgn.Car
   fullName: rgn.Car
   nameWithType: Car
-- uid: rgn.Car.#ctor(System.String,System.String,System.String,System.Int32)
-  name: Car(String, String, String, Int32)
-  href: api/rgn.Car.html#rgn_Car__ctor_System_String_System_String_System_String_System_Int32_
-  commentId: M:rgn.Car.#ctor(System.String,System.String,System.String,System.Int32)
-  fullName: rgn.Car.Car(System.String, System.String, System.String, System.Int32)
-  nameWithType: Car.Car(String, String, String, Int32)
+- uid: rgn.Car.#ctor(System.String,System.String)
+  name: Car(String, String)
+  href: api/rgn.Car.html#rgn_Car__ctor_System_String_System_String_
+  commentId: M:rgn.Car.#ctor(System.String,System.String)
+  fullName: rgn.Car.Car(System.String, System.String)
+  nameWithType: Car.Car(String, String)
 - uid: rgn.Car.#ctor*
   name: Car
   href: api/rgn.Car.html#rgn_Car__ctor_
@@ -151,19 +217,6 @@ references:
   commentId: F:rgn.Car.CarType.tuned
   fullName: rgn.Car.CarType.tuned
   nameWithType: Car.CarType.tuned
-- uid: rgn.Car.Clutch
-  name: Clutch
-  href: api/rgn.Car.html#rgn_Car_Clutch
-  commentId: P:rgn.Car.Clutch
-  fullName: rgn.Car.Clutch
-  nameWithType: Car.Clutch
-- uid: rgn.Car.Clutch*
-  name: Clutch
-  href: api/rgn.Car.html#rgn_Car_Clutch_
-  commentId: Overload:rgn.Car.Clutch
-  isSpec: "True"
-  fullName: rgn.Car.Clutch
-  nameWithType: Car.Clutch
 - uid: rgn.Car.Color
   name: Color
   href: api/rgn.Car.html#rgn_Car_Color
@@ -190,19 +243,6 @@ references:
   isSpec: "True"
   fullName: rgn.Car.Description
   nameWithType: Car.Description
-- uid: rgn.Car.Differential
-  name: Differential
-  href: api/rgn.Car.html#rgn_Car_Differential
-  commentId: P:rgn.Car.Differential
-  fullName: rgn.Car.Differential
-  nameWithType: Car.Differential
-- uid: rgn.Car.Differential*
-  name: Differential
-  href: api/rgn.Car.html#rgn_Car_Differential_
-  commentId: Overload:rgn.Car.Differential
-  isSpec: "True"
-  fullName: rgn.Car.Differential
-  nameWithType: Car.Differential
 - uid: rgn.Car.Distance
   name: Distance
   href: api/rgn.Car.html#rgn_Car_Distance
@@ -266,19 +306,19 @@ references:
   isSpec: "True"
   fullName: rgn.Car.FuelConsumption
   nameWithType: Car.FuelConsumption
-- uid: rgn.Car.Gearbox
-  name: Gearbox
-  href: api/rgn.Car.html#rgn_Car_Gearbox
-  commentId: P:rgn.Car.Gearbox
-  fullName: rgn.Car.Gearbox
-  nameWithType: Car.Gearbox
-- uid: rgn.Car.Gearbox*
-  name: Gearbox
-  href: api/rgn.Car.html#rgn_Car_Gearbox_
-  commentId: Overload:rgn.Car.Gearbox
+- uid: rgn.Car.Handling
+  name: Handling
+  href: api/rgn.Car.html#rgn_Car_Handling
+  commentId: P:rgn.Car.Handling
+  fullName: rgn.Car.Handling
+  nameWithType: Car.Handling
+- uid: rgn.Car.Handling*
+  name: Handling
+  href: api/rgn.Car.html#rgn_Car_Handling_
+  commentId: Overload:rgn.Car.Handling
   isSpec: "True"
-  fullName: rgn.Car.Gearbox
-  nameWithType: Car.Gearbox
+  fullName: rgn.Car.Handling
+  nameWithType: Car.Handling
 - uid: rgn.Car.HP
   name: HP
   href: api/rgn.Car.html#rgn_Car_HP
@@ -601,19 +641,6 @@ references:
   isSpec: "True"
   fullName: rgn.Car.SteerRight
   nameWithType: Car.SteerRight
-- uid: rgn.Car.Suspension
-  name: Suspension
-  href: api/rgn.Car.html#rgn_Car_Suspension
-  commentId: P:rgn.Car.Suspension
-  fullName: rgn.Car.Suspension
-  nameWithType: Car.Suspension
-- uid: rgn.Car.Suspension*
-  name: Suspension
-  href: api/rgn.Car.html#rgn_Car_Suspension_
-  commentId: Overload:rgn.Car.Suspension
-  isSpec: "True"
-  fullName: rgn.Car.Suspension
-  nameWithType: Car.Suspension
 - uid: rgn.Car.TireExploit
   name: TireExploit
   href: api/rgn.Car.html#rgn_Car_TireExploit
@@ -860,6 +887,120 @@ references:
   commentId: F:rgn.Car.Wheels.RR
   fullName: rgn.Car.Wheels.RR
   nameWithType: Car.Wheels.RR
+- uid: rgn.CarParts
+  name: rgn.CarParts
+  href: api/rgn.CarParts.html
+  commentId: N:rgn.CarParts
+  fullName: rgn.CarParts
+  nameWithType: rgn.CarParts
+- uid: rgn.CarParts.Clutch
+  name: Clutch
+  href: api/rgn.CarParts.Clutch.html
+  commentId: T:rgn.CarParts.Clutch
+  fullName: rgn.CarParts.Clutch
+  nameWithType: Clutch
+- uid: rgn.CarParts.Differential
+  name: Differential
+  href: api/rgn.CarParts.Differential.html
+  commentId: T:rgn.CarParts.Differential
+  fullName: rgn.CarParts.Differential
+  nameWithType: Differential
+- uid: rgn.CarParts.Gearbox
+  name: Gearbox
+  href: api/rgn.CarParts.Gearbox.html
+  commentId: T:rgn.CarParts.Gearbox
+  fullName: rgn.CarParts.Gearbox
+  nameWithType: Gearbox
+- uid: rgn.CarParts.Suspension
+  name: Suspension
+  href: api/rgn.CarParts.Suspension.html
+  commentId: T:rgn.CarParts.Suspension
+  fullName: rgn.CarParts.Suspension
+  nameWithType: Suspension
+- uid: rgn.CarParts.Suspension.Distance
+  name: Distance
+  href: api/rgn.CarParts.Suspension.html#rgn_CarParts_Suspension_Distance
+  commentId: P:rgn.CarParts.Suspension.Distance
+  fullName: rgn.CarParts.Suspension.Distance
+  nameWithType: Suspension.Distance
+- uid: rgn.CarParts.Suspension.Distance*
+  name: Distance
+  href: api/rgn.CarParts.Suspension.html#rgn_CarParts_Suspension_Distance_
+  commentId: Overload:rgn.CarParts.Suspension.Distance
+  isSpec: "True"
+  fullName: rgn.CarParts.Suspension.Distance
+  nameWithType: Suspension.Distance
+- uid: rgn.CarParts.Suspension.Force(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: Force(Int32, Int32, Int32, Int32)
+  href: api/rgn.CarParts.Suspension.html#rgn_CarParts_Suspension_Force_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:rgn.CarParts.Suspension.Force(System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: rgn.CarParts.Suspension.Force(System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Suspension.Force(Int32, Int32, Int32, Int32)
+- uid: rgn.CarParts.Suspension.Force*
+  name: Force
+  href: api/rgn.CarParts.Suspension.html#rgn_CarParts_Suspension_Force_
+  commentId: Overload:rgn.CarParts.Suspension.Force
+  isSpec: "True"
+  fullName: rgn.CarParts.Suspension.Force
+  nameWithType: Suspension.Force
+- uid: rgn.Driver
+  name: Driver
+  href: api/rgn.Driver.html
+  commentId: T:rgn.Driver
+  fullName: rgn.Driver
+  nameWithType: Driver
+- uid: rgn.Driver.#ctor
+  name: Driver()
+  href: api/rgn.Driver.html#rgn_Driver__ctor
+  commentId: M:rgn.Driver.#ctor
+  fullName: rgn.Driver.Driver()
+  nameWithType: Driver.Driver()
+- uid: rgn.Driver.#ctor*
+  name: Driver
+  href: api/rgn.Driver.html#rgn_Driver__ctor_
+  commentId: Overload:rgn.Driver.#ctor
+  isSpec: "True"
+  fullName: rgn.Driver.Driver
+  nameWithType: Driver.Driver
+- uid: rgn.Driver.Exp
+  name: Exp
+  href: api/rgn.Driver.html#rgn_Driver_Exp
+  commentId: P:rgn.Driver.Exp
+  fullName: rgn.Driver.Exp
+  nameWithType: Driver.Exp
+- uid: rgn.Driver.Exp*
+  name: Exp
+  href: api/rgn.Driver.html#rgn_Driver_Exp_
+  commentId: Overload:rgn.Driver.Exp
+  isSpec: "True"
+  fullName: rgn.Driver.Exp
+  nameWithType: Driver.Exp
+- uid: rgn.Driver.Level
+  name: Level
+  href: api/rgn.Driver.html#rgn_Driver_Level
+  commentId: P:rgn.Driver.Level
+  fullName: rgn.Driver.Level
+  nameWithType: Driver.Level
+- uid: rgn.Driver.Level*
+  name: Level
+  href: api/rgn.Driver.html#rgn_Driver_Level_
+  commentId: Overload:rgn.Driver.Level
+  isSpec: "True"
+  fullName: rgn.Driver.Level
+  nameWithType: Driver.Level
+- uid: rgn.Driver.Name
+  name: Name
+  href: api/rgn.Driver.html#rgn_Driver_Name
+  commentId: P:rgn.Driver.Name
+  fullName: rgn.Driver.Name
+  nameWithType: Driver.Name
+- uid: rgn.Driver.Name*
+  name: Name
+  href: api/rgn.Driver.html#rgn_Driver_Name_
+  commentId: Overload:rgn.Driver.Name
+  isSpec: "True"
+  fullName: rgn.Driver.Name
+  nameWithType: Driver.Name
 - uid: rgn.File
   name: File
   href: api/rgn.File.html
@@ -940,6 +1081,18 @@ references:
   isSpec: "True"
   fullName: rgn.Maths.RandomItem
   nameWithType: Maths.RandomItem
+- uid: rgn.ML
+  name: rgn.ML
+  href: api/rgn.ML.html
+  commentId: N:rgn.ML
+  fullName: rgn.ML
+  nameWithType: rgn.ML
+- uid: rgn.ML.MBA
+  name: MBA
+  href: api/rgn.ML.MBA.html
+  commentId: T:rgn.ML.MBA
+  fullName: rgn.ML.MBA
+  nameWithType: MBA
 - uid: rgn.Physics
   name: rgn.Physics
   href: api/rgn.Physics.html
@@ -991,6 +1144,24 @@ references:
   isSpec: "True"
   fullName: rgn.Physics.Rigid.LinearVelocity
   nameWithType: Rigid.LinearVelocity
+- uid: rgn.Systems
+  name: rgn.Systems
+  href: api/rgn.Systems.html
+  commentId: N:rgn.Systems
+  fullName: rgn.Systems
+  nameWithType: rgn.Systems
+- uid: rgn.Systems.Achievement
+  name: Achievement
+  href: api/rgn.Systems.Achievement.html
+  commentId: T:rgn.Systems.Achievement
+  fullName: rgn.Systems.Achievement
+  nameWithType: Achievement
+- uid: rgn.Systems.Weather
+  name: Weather
+  href: api/rgn.Systems.Weather.html
+  commentId: T:rgn.Systems.Weather
+  fullName: rgn.Systems.Weather
+  nameWithType: Weather
 - uid: rgn.Timer
   name: Timer
   href: api/rgn.Timer.html

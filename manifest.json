@@ -26,11 +26,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Camera.CameraView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Camera.CameraView.html",
+          "hash": "2YrtRue/NdZ1MPtJykzaYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Camera.html",
+          "hash": "vwOrly4ro5+1z03hPpYRZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/rgn.Car.CarType.yml",
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.CarType.html",
-          "hash": "+qjpbjZYz2W51IcIVwKeLQ=="
+          "hash": "MlzVGHNISanpvtjwOPN/Sg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.DriveType.html",
-          "hash": "Pf6ibduwP6xEvDk4ozGU0w=="
+          "hash": "eWRIECIaBmdgBirTCBipFA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Paint.html",
-          "hash": "FBno65QHnPaBv6Rp+CRVEg=="
+          "hash": "xk798WOj65AGqNWkUjuK7Q=="
         }
       },
       "is_incremental": false,
@@ -66,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Price.html",
-          "hash": "h+9w7UaXurmink5BmE9B/A=="
+          "hash": "uBN8rgbuj3mRvQTjf+K0xQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.RacingType.html",
-          "hash": "pU4fnzqoT+HZt0psuZexJQ=="
+          "hash": "zdK6QJgc69Cke/swdU/TrA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.SafetySystems.html",
-          "hash": "9V8tqWm0L/OloEXYVsXsfA=="
+          "hash": "QC5+h3bazOTtwD+zlxZAvQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.TireType.html",
-          "hash": "yLhp7U2pNhI3xpHO3ggOwQ=="
+          "hash": "n7eJjeFuOBDwr4jmq3hjFw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.TransmissionType.html",
-          "hash": "V92oHymPiDdQf6vqC4G5XQ=="
+          "hash": "Qatfv0e5pK/TH9IPCGo7jw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.WheelColliders.html",
-          "hash": "XmpVt9lOCwa/jtMbntBUgQ=="
+          "hash": "bDyzI1Y0YY5sYQscM1yMXQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Wheels.html",
-          "hash": "fuRtT+J7WxYrwm8qenhRUA=="
+          "hash": "HXPIN2JGpHQ/v1uAopOvCw=="
         }
       },
       "is_incremental": false,
@@ -150,7 +174,79 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.html",
-          "hash": "y7iwdnFyQe7UKhNsktofyw=="
+          "hash": "ak0cA87g1A3cLkP4SeljOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.Clutch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.Clutch.html",
+          "hash": "Hy4PSO53L+p6MvEK2qN9EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.Differential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.Differential.html",
+          "hash": "M1F+9pE+Tp8Sq7aFqp3Yhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.Gearbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.Gearbox.html",
+          "hash": "65UgCLSp/FPlwm8Dt79YxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.Suspension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.Suspension.html",
+          "hash": "gOug1EVh5rm2/KqwQQZiBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.html",
+          "hash": "bI3GlTkUrOczwPsKCtpkQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Driver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Driver.html",
+          "hash": "3rtiVf9OZvM3QjSH8WWL1A=="
         }
       },
       "is_incremental": false,
@@ -163,6 +259,30 @@
         ".html": {
           "relative_path": "api/rgn.File.html",
           "hash": "CLm6pJivE7s+uG2EH8WIRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.ML.MBA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.ML.MBA.html",
+          "hash": "1rXp9ubSOkrPdX1DzvDzdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.ML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.ML.html",
+          "hash": "9jMRsiLlhRKOETeG7w0rZA=="
         }
       },
       "is_incremental": false,
@@ -206,6 +326,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Systems.Achievement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Systems.Achievement.html",
+          "hash": "i6VNmyGVF3Na3qVy/zUZxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Systems.Weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Systems.Weather.html",
+          "hash": "ScbOHWs1IHaBhiGjfV1EFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.Systems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.Systems.html",
+          "hash": "3uoS9yjXA8rbCktWlnZ65g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/rgn.Timer.yml",
       "output": {
         ".html": {
@@ -222,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.html",
-          "hash": "wBJVC1+A/a0hSkMXmg3Ceg=="
+          "hash": "5atjL1tZwQDOR5/jlx+h/w=="
         }
       },
       "is_incremental": false,
@@ -234,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "VoJixVwxrhss1bkW2LV3bw=="
+          "hash": "9Tl00FCm0lePwfiCw+rZpg=="
         }
       },
       "is_incremental": false,
@@ -269,17 +425,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 25,
-          "skipped_file_count": 13
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 1,
           "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 38,
+          "skipped_file_count": 36
         }
       }
     },
