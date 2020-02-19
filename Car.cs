@@ -1,76 +1,96 @@
-﻿using rgn.Physics;
+﻿using rgn.CarParts;
+using rgn.Physics;
 using System;
 
 namespace rgn
 {
     public class Car
     {
-        public Car(string make, string model, string description, int hp)
+        private Differential differential = new Differential();
+
+        private Clutch clutch = new Clutch();
+
+        private Gearbox gearbox = new Gearbox();
+
+        private Suspension suspension = new Suspension();
+
+        public Car(string make, string model)
         {
             Make = make;
             Model = model;
+        }
 
-            Description = description;
-            HP = hp;
+        internal Car(Differential differential, Clutch clutch, Gearbox gearbox, Suspension suspension)
+        {
+            this.differential = differential;
+            this.clutch = clutch;
+            this.gearbox = gearbox;
+            this.suspension = suspension;
         }
 
         // car related types
 
-        private enum DriveType
+        public enum DriveType
         {
-            fwd,
-            rwd,
-            awd
+            Awd,
+            Fwd,
+            Rwd
         }
 
-        private enum TransmissionType
+        public enum TransmissionType
         {
             MT,
             AT
         }
 
-        private enum CarType
+        public enum CarType
         {
-            sports,
-            racecar,
-            supercar,
-            drift,
-            drag,
-            rally,
-            concept,
-            hypercar,
-            tuned
+            Sports,
+            Racecar,
+            Supercar,
+            Drift,
+            Drag,
+            Rally,
+            Concept,
+            Hypercar,
+            Tuned
         }
 
-        private enum RacingType
+        public enum RacingType
         {
             GTR,
             F1,
             Touring
         }
 
-        private enum TireType
+        public enum TireType
         {
-            sport,
-            semiSlick,
-            slick,
-            supersoft,
-            soft,
-            medium,
-            hard,
-            dry,
-            wet,
-            street,
-            rally,
-            dirt,
-            snow,
-            summer,
+            Sport,
+            SemiSlick,
+            Slick,
+            Supersoft,
+            Soft,
+            Medium,
+            Hard,
+            Dry,
+            Wet,
+            Street,
+            Rally,
+            Dirt,
+            Snow,
+            Summer,
         }
 
-        private enum Paint
-        { matte, chrome, metallic, pearl, solid }
+        public enum Paint
+        {
+            Matte,
+            Chrome,
+            Metallic,
+            Pearl,
+            Solid
+        }
 
-        private enum SafetySystems
+        public enum SafetySystems
         {
             ABS,
             ESP,
@@ -79,10 +99,10 @@ namespace rgn
             ASR,
         }
 
-        private enum Price
+        public enum Price
         {
-            usd,
-            eur
+            Usd,
+            Eur
         }
 
         public float Speed
@@ -96,6 +116,9 @@ namespace rgn
             get;
             set;
         }
+
+        public int TopSpeed { get; set; }
+        public int Handling { get; set; }
 
         public string Make { get; set; }
 
@@ -123,6 +146,8 @@ namespace rgn
 
         public bool IsOnTrack { get; set; }
 
+        public bool IsWon { get; set; }
+
         public bool IsUsed { get; set; }
         public bool AImode { get; set; }
 
@@ -132,15 +157,7 @@ namespace rgn
 
         public float TireExploit { get; set; }
 
-        public object Differential { get; set; }
-
-        public object Clutch { get; set; }
-
-        public object Gearbox { get; set; }
-
-        public object Suspension { get; set; }
-
-        private enum Wheels
+        public enum Wheels
         {
             // front
             FR,
@@ -153,7 +170,7 @@ namespace rgn
             RR
         }
 
-        private enum WheelColliders
+        public enum WheelColliders
         {
             // front
             ColFR,
@@ -203,7 +220,7 @@ namespace rgn
         /// <param name="speed">Speed</param>
         public int MpsToKmh(float speed)
         {
-            return (int)Math.Round(speed * 3.6);
+            return (int)(speed * 3.6);
         }
 
         /// <summary>
@@ -223,7 +240,7 @@ namespace rgn
         /// <param name="speed">Speed</param>
         public int KmhToMph(int speed)
         {
-            return (int)Math.Round(speed / 1.61);
+            return (int)(speed / 1.61);
         }
 
         /// <summary>
@@ -233,7 +250,7 @@ namespace rgn
         /// <param name="speed">Speed</param>
         public int MphToKmh(int speed)
         {
-            return (int)Math.Round(speed * 1.61);
+            return (int)(speed * 1.61);
         }
 
         public void Accelerate(int engineForce)
