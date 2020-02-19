@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Camera.CameraView.html",
-          "hash": "2YrtRue/NdZ1MPtJykzaYA=="
+          "hash": "sS+eGXgZa/7X7I1DLiEYuA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.CarType.html",
-          "hash": "MlzVGHNISanpvtjwOPN/Sg=="
+          "hash": "CKlnxhEyO07S47r53teojQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.DriveType.html",
-          "hash": "eWRIECIaBmdgBirTCBipFA=="
+          "hash": "EMxbava6MXB1SCy9fL8+lQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Paint.html",
-          "hash": "xk798WOj65AGqNWkUjuK7Q=="
+          "hash": "sJXJPhHoeXl+F2TC1x3/7Q=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Price.html",
-          "hash": "uBN8rgbuj3mRvQTjf+K0xQ=="
+          "hash": "7X/k/5vYtZsX1uIIZw1UUg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.SafetySystems.html",
-          "hash": "QC5+h3bazOTtwD+zlxZAvQ=="
+          "hash": "uqiJ68fZ8WSuDkuc1I/uog=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.TireType.html",
-          "hash": "n7eJjeFuOBDwr4jmq3hjFw=="
+          "hash": "RanY5T1Sct3J79LpyhaIdA=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.WheelColliders.html",
-          "hash": "bDyzI1Y0YY5sYQscM1yMXQ=="
+          "hash": "0tQ0jX31xsN5PLgCctcZ6A=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.Wheels.html",
-          "hash": "HXPIN2JGpHQ/v1uAopOvCw=="
+          "hash": "eyxgpN9mFP1Px1Cc+FT/Hg=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Car.html",
-          "hash": "ak0cA87g1A3cLkP4SeljOQ=="
+          "hash": "01iXkcdvgSGySZY0/grgMg=="
         }
       },
       "is_incremental": false,
@@ -182,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/rgn.CarParts.Clutch.yml",
+      "source_relative_path": "obj/api/rgn.CarParts.Differential.Type.yml",
       "output": {
         ".html": {
-          "relative_path": "api/rgn.CarParts.Clutch.html",
-          "hash": "Hy4PSO53L+p6MvEK2qN9EA=="
+          "relative_path": "api/rgn.CarParts.Differential.Type.html",
+          "hash": "V/PDNvreImcLLUdjnOoHMw=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,19 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.CarParts.Differential.html",
-          "hash": "M1F+9pE+Tp8Sq7aFqp3Yhg=="
+          "hash": "jm5iP3SAbL4xN+8FyacSlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/rgn.CarParts.Gearbox.ATMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rgn.CarParts.Gearbox.ATMode.html",
+          "hash": "wBjuLT9jQo6ngLKCg6q6Qg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.CarParts.Gearbox.html",
-          "hash": "65UgCLSp/FPlwm8Dt79YxQ=="
+          "hash": "HtOdkrU4jppWr+hR9hkm2w=="
         }
       },
       "is_incremental": false,
@@ -234,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.CarParts.html",
-          "hash": "bI3GlTkUrOczwPsKCtpkQQ=="
+          "hash": "36p9a5wyfPnBqrF56ejsFQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/rgn.Driver.html",
-          "hash": "3rtiVf9OZvM3QjSH8WWL1A=="
+          "hash": "FjJ9ricVC/4A+AjSQUch/w=="
         }
       },
       "is_incremental": false,
@@ -390,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9Tl00FCm0lePwfiCw+rZpg=="
+          "hash": "tU3o7BxohRaAzcZNQ4hLcQ=="
         }
       },
       "is_incremental": false,
@@ -418,12 +430,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 39,
+          "skipped_file_count": 23
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -431,11 +442,12 @@
           "total_file_count": 1,
           "skipped_file_count": 1
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 38,
-          "skipped_file_count": 36
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

@@ -4,150 +4,155 @@
     "title": "rgn | rgn website",
     "keywords": "rgn Description Racing game engine API How to run Windows ###Quick Start *"
   },
-  "api/rgn.Systems.Weather.html": {
-    "href": "api/rgn.Systems.Weather.html",
-    "title": "Class Weather | rgn website",
-    "keywords": "Class Weather Inheritance Object Weather Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.Systems Assembly : rgn.dll Syntax public class Weather"
+  "api/rgn.Car.TireType.html": {
+    "href": "api/rgn.Car.TireType.html",
+    "title": "Enum Car.TireType | rgn website",
+    "keywords": "Enum Car.TireType Namespace : rgn Assembly : rgn.dll Syntax public enum TireType Fields Name Description Dirt Dry Hard Medium Rally SemiSlick Slick Snow Soft Sport Street Summer Supersoft Wet"
   },
-  "api/rgn.Car.SafetySystems.html": {
-    "href": "api/rgn.Car.SafetySystems.html",
-    "title": "Enum Car.SafetySystems | rgn website",
-    "keywords": "Enum Car.SafetySystems Namespace : rgn Assembly : rgn.dll Syntax public enum SafetySystems Fields Name Description ABS ASR ESC ESP TCS"
+  "api/rgn.CarParts.Gearbox.ATMode.html": {
+    "href": "api/rgn.CarParts.Gearbox.ATMode.html",
+    "title": "Enum Gearbox.ATMode | rgn website",
+    "keywords": "Enum Gearbox.ATMode Namespace : rgn.CarParts Assembly : rgn.dll Syntax public enum ATMode Fields Name Description D L M N P R"
   },
-  "api/rgn.Car.WheelColliders.html": {
-    "href": "api/rgn.Car.WheelColliders.html",
-    "title": "Enum Car.WheelColliders | rgn website",
-    "keywords": "Enum Car.WheelColliders Namespace : rgn Assembly : rgn.dll Syntax public enum WheelColliders Fields Name Description ColFL ColFR ColRL ColRR"
+  "api/rgn.Camera.CameraView.html": {
+    "href": "api/rgn.Camera.CameraView.html",
+    "title": "Enum Camera.CameraView | rgn website",
+    "keywords": "Enum Camera.CameraView Namespace : rgn Assembly : rgn.dll Syntax public enum CameraView Fields Name Description Back Bumper Driver Far Front Hood Near SideLeft SideRight"
   },
-  "api/rgn.Physics.html": {
-    "href": "api/rgn.Physics.html",
-    "title": "Namespace rgn.Physics | rgn website",
-    "keywords": "Namespace rgn.Physics Classes Rigid"
+  "api/rgn.Car.Price.html": {
+    "href": "api/rgn.Car.Price.html",
+    "title": "Enum Car.Price | rgn website",
+    "keywords": "Enum Car.Price Namespace : rgn Assembly : rgn.dll Syntax public enum Price Fields Name Description Eur Usd"
   },
   "api/rgn.Physics.Rigid.html": {
     "href": "api/rgn.Physics.Rigid.html",
     "title": "Class Rigid | rgn website",
     "keywords": "Class Rigid Inheritance Object Rigid Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.Physics Assembly : rgn.dll Syntax public class Rigid Properties | Improve this Doc View Source LinearVelocity Declaration public Vector3 LinearVelocity { get; set; } Property Value Type Description BulletSharp.Math.Vector3 Methods | Improve this Doc View Source AddForce(Int32) Adds the force. Declaration public void AddForce(int engineForce) Parameters Type Name Description Int32 engineForce Engine force. | Improve this Doc View Source AddTorque(Int32) Adds the torque. Declaration public void AddTorque(int torque) Parameters Type Name Description Int32 torque Torque."
   },
-  "api/rgn.html": {
-    "href": "api/rgn.html",
-    "title": "Namespace rgn | rgn website",
-    "keywords": "Namespace rgn Classes Camera Car Driver File Maths Timer Enums Camera.CameraView Car.CarType Car.DriveType Car.Paint Car.Price Car.RacingType Car.SafetySystems Car.TireType Car.TransmissionType Car.WheelColliders Car.Wheels"
-  },
-  "api/rgn.Camera.CameraView.html": {
-    "href": "api/rgn.Camera.CameraView.html",
-    "title": "Enum Camera.CameraView | rgn website",
-    "keywords": "Enum Camera.CameraView Namespace : rgn Assembly : rgn.dll Syntax public enum CameraView Fields Name Description back bumper driver far front hood near sideLeft sideRight"
-  },
-  "api/rgn.Car.html": {
-    "href": "api/rgn.Car.html",
-    "title": "Class Car | rgn website",
-    "keywords": "Class Car Inheritance Object Car Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public class Car Constructors | Improve this Doc View Source Car(String, String) Declaration public Car(string make, string model) Parameters Type Name Description String make String model Properties | Improve this Doc View Source AImode Declaration public bool AImode { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Color Declaration public string Color { get; set; } Property Value Type Description String | Improve this Doc View Source Description Declaration public string Description { get; set; } Property Value Type Description String | Improve this Doc View Source Distance Declaration public float Distance { get; set; } Property Value Type Description Single | Improve this Doc View Source EnableCarPhysics Declaration public bool EnableCarPhysics { get; set; } Property Value Type Description Boolean | Improve this Doc View Source FuelConsumption Declaration public float FuelConsumption { get; set; } Property Value Type Description Single | Improve this Doc View Source Handling Declaration public int Handling { get; set; } Property Value Type Description Int32 | Improve this Doc View Source HP Declaration public int HP { get; set; } Property Value Type Description Int32 | Improve this Doc View Source IsInMeeting Declaration public bool IsInMeeting { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsLocked Declaration public bool IsLocked { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsOnTrack Declaration public bool IsOnTrack { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsUsed Declaration public bool IsUsed { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Make Declaration public string Make { get; set; } Property Value Type Description String | Improve this Doc View Source Model Declaration public string Model { get; set; } Property Value Type Description String | Improve this Doc View Source RearTrack Declaration public float RearTrack { get; set; } Property Value Type Description Single | Improve this Doc View Source RPM Declaration public int RPM { get; set; } Property Value Type Description Int32 | Improve this Doc View Source Speed Declaration public float Speed { get; set; } Property Value Type Description Single | Improve this Doc View Source TireExploit Declaration public float TireExploit { get; set; } Property Value Type Description Single | Improve this Doc View Source TopSpeed Declaration public int TopSpeed { get; set; } Property Value Type Description Int32 | Improve this Doc View Source TurnRadius Declaration public float TurnRadius { get; set; } Property Value Type Description Single | Improve this Doc View Source Weight Declaration public int Weight { get; set; } Property Value Type Description Int32 | Improve this Doc View Source WheelBase Declaration public float WheelBase { get; set; } Property Value Type Description Single | Improve this Doc View Source WheelRadius Declaration public float WheelRadius { get; set; } Property Value Type Description Single Methods | Improve this Doc View Source Accelerate(Int32) Declaration public void Accelerate(int engineForce) Parameters Type Name Description Int32 engineForce | Improve this Doc View Source AckermannLeft(Single, Single, Single) left angle of ackermann steering in degrees Declaration public static double AckermannLeft(float rearTrack, float wheelBase, float turnRadius) Parameters Type Name Description Single rearTrack Single wheelBase Single turnRadius Returns Type Description Double angle | Improve this Doc View Source AckermannRight(Single, Single, Single) right angle of ackermann steering in degrees Declaration public static double AckermannRight(float rearTrack, float wheelBase, float turnRadius) Parameters Type Name Description Single rearTrack Single wheelBase Single turnRadius Returns Type Description Double angle | Improve this Doc View Source Brake(Int32) Declaration public void Brake(int brakeForce) Parameters Type Name Description Int32 brakeForce | Improve this Doc View Source KmhToMph(Int32) Kmh to mph Declaration public int KmhToMph(int speed) Parameters Type Name Description Int32 speed Speed Returns Type Description Int32 speed in mph | Improve this Doc View Source MphToKmh(Int32) Mph to kmh Declaration public int MphToKmh(int speed) Parameters Type Name Description Int32 speed Speed Returns Type Description Int32 speed in kmh | Improve this Doc View Source MpsToKmh(Single) Meters per second to kmh. Declaration public int MpsToKmh(float speed) Parameters Type Name Description Single speed Speed Returns Type Description Int32 speed in kmh | Improve this Doc View Source MToKm(Single) Meters to km. Declaration public float MToKm(float distance) Parameters Type Name Description Single distance Distance. Returns Type Description Single The km. | Improve this Doc View Source SteerLeft(Int32) Declaration public void SteerLeft(int torque) Parameters Type Name Description Int32 torque | Improve this Doc View Source SteerRight(Int32) Declaration public void SteerRight(int torque) Parameters Type Name Description Int32 torque"
-  },
   "api/rgn.Timer.html": {
     "href": "api/rgn.Timer.html",
     "title": "Class Timer | rgn website",
     "keywords": "Class Timer Inheritance Object Timer Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public class Timer Constructors | Improve this Doc View Source Timer() Declaration public Timer() Methods | Improve this Doc View Source Start() Declaration public void Start()"
-  },
-  "api/rgn.Car.DriveType.html": {
-    "href": "api/rgn.Car.DriveType.html",
-    "title": "Enum Car.DriveType | rgn website",
-    "keywords": "Enum Car.DriveType Namespace : rgn Assembly : rgn.dll Syntax public enum DriveType Fields Name Description awd fwd rwd"
-  },
-  "api/rgn.CarParts.Differential.html": {
-    "href": "api/rgn.CarParts.Differential.html",
-    "title": "Class Differential | rgn website",
-    "keywords": "Class Differential Inheritance Object Differential Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Differential"
-  },
-  "api/rgn.Maths.html": {
-    "href": "api/rgn.Maths.html",
-    "title": "Class Maths | rgn website",
-    "keywords": "Class Maths Inheritance Object Maths Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public static class Maths Methods | Improve this Doc View Source RadToDeg(Double) convert radians to degrees Declaration public static double RadToDeg(double angle) Parameters Type Name Description Double angle Returns Type Description Double converted angle | Improve this Doc View Source RandomItem(String[]) Gets random item from array. Declaration public static string RandomItem(string[] array) Parameters Type Name Description String [] array Array. Returns Type Description String The item."
-  },
-  "api/rgn.Car.Price.html": {
-    "href": "api/rgn.Car.Price.html",
-    "title": "Enum Car.Price | rgn website",
-    "keywords": "Enum Car.Price Namespace : rgn Assembly : rgn.dll Syntax public enum Price Fields Name Description eur usd"
   },
   "api/rgn.File.html": {
     "href": "api/rgn.File.html",
     "title": "Class File | rgn website",
     "keywords": "Class File Inheritance Object File Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public class File Constructors | Improve this Doc View Source File() Declaration public File() Methods | Improve this Doc View Source Load(String) Loads and parses the json file. Declaration public static object Load(string file) Parameters Type Name Description String file File. Returns Type Description Object The object. | Improve this Doc View Source Save(String, Object) Saves object to json file Declaration public static void Save(string file, object contents) Parameters Type Name Description String file File. Object contents Contents."
   },
-  "api/rgn.Systems.Achievement.html": {
-    "href": "api/rgn.Systems.Achievement.html",
-    "title": "Class Achievement | rgn website",
-    "keywords": "Class Achievement Inheritance Object Achievement Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.Systems Assembly : rgn.dll Syntax public class Achievement"
-  },
-  "api/rgn.Car.RacingType.html": {
-    "href": "api/rgn.Car.RacingType.html",
-    "title": "Enum Car.RacingType | rgn website",
-    "keywords": "Enum Car.RacingType Namespace : rgn Assembly : rgn.dll Syntax public enum RacingType Fields Name Description F1 GTR Touring"
-  },
-  "api/rgn.Car.TransmissionType.html": {
-    "href": "api/rgn.Car.TransmissionType.html",
-    "title": "Enum Car.TransmissionType | rgn website",
-    "keywords": "Enum Car.TransmissionType Namespace : rgn Assembly : rgn.dll Syntax public enum TransmissionType Fields Name Description AT MT"
-  },
-  "api/rgn.CarParts.Gearbox.html": {
-    "href": "api/rgn.CarParts.Gearbox.html",
-    "title": "Class Gearbox | rgn website",
-    "keywords": "Class Gearbox Inheritance Object Gearbox Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Gearbox"
+  "api/rgn.CarParts.Suspension.html": {
+    "href": "api/rgn.CarParts.Suspension.html",
+    "title": "Class Suspension | rgn website",
+    "keywords": "Class Suspension Inheritance Object Suspension Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Suspension Properties | Improve this Doc View Source Distance Declaration public float Distance { get; set; } Property Value Type Description Single Methods | Improve this Doc View Source Force(Int32, Int32, Int32, Int32) Declaration public int Force(int SpringRate, int CompressionDistance, int damper, int contactSpeed) Parameters Type Name Description Int32 SpringRate Int32 CompressionDistance Int32 damper Int32 contactSpeed Returns Type Description Int32"
   },
   "api/rgn.ML.MBA.html": {
     "href": "api/rgn.ML.MBA.html",
     "title": "Class MBA | rgn website",
     "keywords": "Class MBA Inheritance Object MBA Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.ML Assembly : rgn.dll Syntax public class MBA"
   },
-  "api/rgn.Car.TireType.html": {
-    "href": "api/rgn.Car.TireType.html",
-    "title": "Enum Car.TireType | rgn website",
-    "keywords": "Enum Car.TireType Namespace : rgn Assembly : rgn.dll Syntax public enum TireType Fields Name Description dirt dry hard medium rally semiSlick slick snow soft sport street summer supersoft wet"
+  "api/rgn.Systems.Achievement.html": {
+    "href": "api/rgn.Systems.Achievement.html",
+    "title": "Class Achievement | rgn website",
+    "keywords": "Class Achievement Inheritance Object Achievement Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.Systems Assembly : rgn.dll Syntax public class Achievement"
   },
-  "api/rgn.ML.html": {
-    "href": "api/rgn.ML.html",
-    "title": "Namespace rgn.ML | rgn website",
-    "keywords": "Namespace rgn.ML Classes MBA"
+  "api/rgn.html": {
+    "href": "api/rgn.html",
+    "title": "Namespace rgn | rgn website",
+    "keywords": "Namespace rgn Classes Camera Car Driver File Maths Timer Enums Camera.CameraView Car.CarType Car.DriveType Car.Paint Car.Price Car.RacingType Car.SafetySystems Car.TireType Car.TransmissionType Car.WheelColliders Car.Wheels"
+  },
+  "api/rgn.Car.TransmissionType.html": {
+    "href": "api/rgn.Car.TransmissionType.html",
+    "title": "Enum Car.TransmissionType | rgn website",
+    "keywords": "Enum Car.TransmissionType Namespace : rgn Assembly : rgn.dll Syntax public enum TransmissionType Fields Name Description AT MT"
+  },
+  "api/rgn.Maths.html": {
+    "href": "api/rgn.Maths.html",
+    "title": "Class Maths | rgn website",
+    "keywords": "Class Maths Inheritance Object Maths Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public static class Maths Methods | Improve this Doc View Source RadToDeg(Double) convert radians to degrees Declaration public static double RadToDeg(double angle) Parameters Type Name Description Double angle Returns Type Description Double converted angle | Improve this Doc View Source RandomItem(String[]) Gets random item from array. Declaration public static string RandomItem(string[] array) Parameters Type Name Description String [] array Array. Returns Type Description String The item."
+  },
+  "api/rgn.Systems.Weather.html": {
+    "href": "api/rgn.Systems.Weather.html",
+    "title": "Class Weather | rgn website",
+    "keywords": "Class Weather Inheritance Object Weather Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.Systems Assembly : rgn.dll Syntax public class Weather"
   },
   "api/rgn.Car.Paint.html": {
     "href": "api/rgn.Car.Paint.html",
     "title": "Enum Car.Paint | rgn website",
-    "keywords": "Enum Car.Paint Namespace : rgn Assembly : rgn.dll Syntax public enum Paint Fields Name Description chrome matte metallic pearl solid"
+    "keywords": "Enum Car.Paint Namespace : rgn Assembly : rgn.dll Syntax public enum Paint Fields Name Description Chrome Matte Metallic Pearl Solid"
   },
   "api/rgn.Car.Wheels.html": {
     "href": "api/rgn.Car.Wheels.html",
     "title": "Enum Car.Wheels | rgn website",
     "keywords": "Enum Car.Wheels Namespace : rgn Assembly : rgn.dll Syntax public enum Wheels Fields Name Description FL FR RL RR"
   },
-  "api/rgn.Systems.html": {
-    "href": "api/rgn.Systems.html",
-    "title": "Namespace rgn.Systems | rgn website",
-    "keywords": "Namespace rgn.Systems Classes Achievement Weather"
+  "api/rgn.CarParts.html": {
+    "href": "api/rgn.CarParts.html",
+    "title": "Namespace rgn.CarParts | rgn website",
+    "keywords": "Namespace rgn.CarParts Classes Differential Gearbox Suspension Enums Differential.Type Gearbox.ATMode"
   },
-  "api/rgn.Car.CarType.html": {
-    "href": "api/rgn.Car.CarType.html",
-    "title": "Enum Car.CarType | rgn website",
-    "keywords": "Enum Car.CarType Namespace : rgn Assembly : rgn.dll Syntax public enum CarType Fields Name Description concept drag drift hypercar racecar rally sports supercar tuned"
+  "api/rgn.CarParts.Differential.Type.html": {
+    "href": "api/rgn.CarParts.Differential.Type.html",
+    "title": "Enum Differential.Type | rgn website",
+    "keywords": "Enum Differential.Type Namespace : rgn.CarParts Assembly : rgn.dll Syntax public enum Type Fields Name Description ClutchPack Locked Open TorqueBias Viscous"
   },
-  "api/rgn.CarParts.Clutch.html": {
-    "href": "api/rgn.CarParts.Clutch.html",
-    "title": "Class Clutch | rgn website",
-    "keywords": "Class Clutch Inheritance Object Clutch Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Clutch"
+  "api/rgn.Car.html": {
+    "href": "api/rgn.Car.html",
+    "title": "Class Car | rgn website",
+    "keywords": "Class Car Inheritance Object Car Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public class Car Constructors | Improve this Doc View Source Car(String, String) Declaration public Car(string make, string model) Parameters Type Name Description String make String model Properties | Improve this Doc View Source AImode Declaration public bool AImode { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Color Declaration public string Color { get; set; } Property Value Type Description String | Improve this Doc View Source Description Declaration public string Description { get; set; } Property Value Type Description String | Improve this Doc View Source Distance Declaration public float Distance { get; set; } Property Value Type Description Single | Improve this Doc View Source EnableCarPhysics Declaration public bool EnableCarPhysics { get; set; } Property Value Type Description Boolean | Improve this Doc View Source FuelConsumption Declaration public float FuelConsumption { get; set; } Property Value Type Description Single | Improve this Doc View Source Handling Declaration public int Handling { get; set; } Property Value Type Description Int32 | Improve this Doc View Source HP Declaration public int HP { get; set; } Property Value Type Description Int32 | Improve this Doc View Source IsInMeeting Declaration public bool IsInMeeting { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsLocked Declaration public bool IsLocked { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsOnTrack Declaration public bool IsOnTrack { get; set; } Property Value Type Description Boolean | Improve this Doc View Source IsUsed Declaration public bool IsUsed { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Make Declaration public string Make { get; set; } Property Value Type Description String | Improve this Doc View Source Model Declaration public string Model { get; set; } Property Value Type Description String | Improve this Doc View Source RearTrack Declaration public float RearTrack { get; set; } Property Value Type Description Single | Improve this Doc View Source RPM Declaration public int RPM { get; set; } Property Value Type Description Int32 | Improve this Doc View Source Speed Declaration public float Speed { get; set; } Property Value Type Description Single | Improve this Doc View Source TireExploit Declaration public float TireExploit { get; set; } Property Value Type Description Single | Improve this Doc View Source TopSpeed Declaration public int TopSpeed { get; set; } Property Value Type Description Int32 | Improve this Doc View Source TurnRadius Declaration public float TurnRadius { get; set; } Property Value Type Description Single | Improve this Doc View Source Weight Declaration public int Weight { get; set; } Property Value Type Description Int32 | Improve this Doc View Source WheelBase Declaration public float WheelBase { get; set; } Property Value Type Description Single | Improve this Doc View Source WheelRadius Declaration public float WheelRadius { get; set; } Property Value Type Description Single Methods | Improve this Doc View Source Accelerate(Int32) Declaration public void Accelerate(int engineForce) Parameters Type Name Description Int32 engineForce | Improve this Doc View Source AckermannLeft(Single, Single, Single) left angle of ackermann steering in degrees Declaration public static double AckermannLeft(float rearTrack, float wheelBase, float turnRadius) Parameters Type Name Description Single rearTrack Single wheelBase Single turnRadius Returns Type Description Double angle | Improve this Doc View Source AckermannRight(Single, Single, Single) right angle of ackermann steering in degrees Declaration public static double AckermannRight(float rearTrack, float wheelBase, float turnRadius) Parameters Type Name Description Single rearTrack Single wheelBase Single turnRadius Returns Type Description Double angle | Improve this Doc View Source Brake(Int32) Declaration public void Brake(int brakeForce) Parameters Type Name Description Int32 brakeForce | Improve this Doc View Source KmhToMph(Int32) Kmh to mph Declaration public int KmhToMph(int speed) Parameters Type Name Description Int32 speed Speed Returns Type Description Int32 speed in mph | Improve this Doc View Source MphToKmh(Int32) Mph to kmh Declaration public int MphToKmh(int speed) Parameters Type Name Description Int32 speed Speed Returns Type Description Int32 speed in kmh | Improve this Doc View Source MpsToKmh(Single) Meters per second to kmh. Declaration public int MpsToKmh(float speed) Parameters Type Name Description Single speed Speed Returns Type Description Int32 speed in kmh | Improve this Doc View Source MToKm(Single) Meters to km. Declaration public float MToKm(float distance) Parameters Type Name Description Single distance Distance. Returns Type Description Single The km. | Improve this Doc View Source SteerLeft(Int32) Declaration public void SteerLeft(int torque) Parameters Type Name Description Int32 torque | Improve this Doc View Source SteerRight(Int32) Declaration public void SteerRight(int torque) Parameters Type Name Description Int32 torque"
+  },
+  "api/rgn.CarParts.Gearbox.html": {
+    "href": "api/rgn.CarParts.Gearbox.html",
+    "title": "Class Gearbox | rgn website",
+    "keywords": "Class Gearbox Inheritance Object Gearbox Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Gearbox"
+  },
+  "api/rgn.CarParts.Differential.html": {
+    "href": "api/rgn.CarParts.Differential.html",
+    "title": "Class Differential | rgn website",
+    "keywords": "Class Differential Inheritance Object Differential Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Differential"
   },
   "api/rgn.Driver.html": {
     "href": "api/rgn.Driver.html",
     "title": "Class Driver | rgn website",
     "keywords": "Class Driver Inheritance Object Driver Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn Assembly : rgn.dll Syntax public class Driver Constructors | Improve this Doc View Source Driver() Declaration public Driver() Properties | Improve this Doc View Source Exp Declaration public int Exp { get; set; } Property Value Type Description Int32 | Improve this Doc View Source Level Declaration public int Level { get; set; } Property Value Type Description Int32 | Improve this Doc View Source Name Declaration public string Name { get; set; } Property Value Type Description String"
   },
-  "api/rgn.CarParts.html": {
-    "href": "api/rgn.CarParts.html",
-    "title": "Namespace rgn.CarParts | rgn website",
-    "keywords": "Namespace rgn.CarParts Classes Clutch Differential Gearbox Suspension"
+  "api/rgn.Car.DriveType.html": {
+    "href": "api/rgn.Car.DriveType.html",
+    "title": "Enum Car.DriveType | rgn website",
+    "keywords": "Enum Car.DriveType Namespace : rgn Assembly : rgn.dll Syntax public enum DriveType Fields Name Description Awd Fwd Rwd"
   },
-  "api/rgn.CarParts.Suspension.html": {
-    "href": "api/rgn.CarParts.Suspension.html",
-    "title": "Class Suspension | rgn website",
-    "keywords": "Class Suspension Inheritance Object Suspension Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : rgn.CarParts Assembly : rgn.dll Syntax public class Suspension Properties | Improve this Doc View Source Distance Declaration public float Distance { get; set; } Property Value Type Description Single Methods | Improve this Doc View Source Force(Int32, Int32, Int32, Int32) Declaration public int Force(int SpringRate, int CompressionDistance, int damper, int contactSpeed) Parameters Type Name Description Int32 SpringRate Int32 CompressionDistance Int32 damper Int32 contactSpeed Returns Type Description Int32"
+  "api/rgn.Car.WheelColliders.html": {
+    "href": "api/rgn.Car.WheelColliders.html",
+    "title": "Enum Car.WheelColliders | rgn website",
+    "keywords": "Enum Car.WheelColliders Namespace : rgn Assembly : rgn.dll Syntax public enum WheelColliders Fields Name Description ColFL ColFR ColRL ColRR"
+  },
+  "api/rgn.Car.CarType.html": {
+    "href": "api/rgn.Car.CarType.html",
+    "title": "Enum Car.CarType | rgn website",
+    "keywords": "Enum Car.CarType Namespace : rgn Assembly : rgn.dll Syntax public enum CarType Fields Name Description Concept Drag Drift Hypercar Racecar Rally Sports Supercar Tuned"
+  },
+  "api/rgn.Car.SafetySystems.html": {
+    "href": "api/rgn.Car.SafetySystems.html",
+    "title": "Enum Car.SafetySystems | rgn website",
+    "keywords": "Enum Car.SafetySystems Namespace : rgn Assembly : rgn.dll Syntax public enum SafetySystems Fields Name Description ABS ASR ESC ESP TCS"
+  },
+  "api/rgn.Physics.html": {
+    "href": "api/rgn.Physics.html",
+    "title": "Namespace rgn.Physics | rgn website",
+    "keywords": "Namespace rgn.Physics Classes Rigid"
+  },
+  "api/rgn.Car.RacingType.html": {
+    "href": "api/rgn.Car.RacingType.html",
+    "title": "Enum Car.RacingType | rgn website",
+    "keywords": "Enum Car.RacingType Namespace : rgn Assembly : rgn.dll Syntax public enum RacingType Fields Name Description F1 GTR Touring"
+  },
+  "api/rgn.ML.html": {
+    "href": "api/rgn.ML.html",
+    "title": "Namespace rgn.ML | rgn website",
+    "keywords": "Namespace rgn.ML Classes MBA"
+  },
+  "api/rgn.Systems.html": {
+    "href": "api/rgn.Systems.html",
+    "title": "Namespace rgn.Systems | rgn website",
+    "keywords": "Namespace rgn.Systems Classes Achievement Weather"
   },
   "api/rgn.Camera.html": {
     "href": "api/rgn.Camera.html",
